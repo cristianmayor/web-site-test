@@ -1,0 +1,248 @@
+2021-11-23T17:27:20+00:00 CRITICAL Uncaught Error: Call to undefined function gamipress_is_network_wide_active() in D:\xampp\htdocs\web-site-test\wp-content\plugins\gamipress-buddyboss-integration\gamipress-buddyboss.php:123
+Stack trace:
+#0 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): GamiPress_BuddyBoss::activate(false)
+#1 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\web-site-test\wp-admin\includes\plugin.php(698): do_action('activate_gamipr...', false)
+#4 D:\xampp\htdocs\web-site-test\wp-content\plugins\wbcom-demo-installer\core\plugins-manager.php(471): activate_plugin('gamipress-buddy...')
+#5 D:\xampp\htdocs\web-site-test\wp-content\plugins\wbcom-demo-installer\core\plugins-manager.php(137): WBCOM_Demo_Importer_Plugins_Manager->do_plugin_install('gamipress-buddy...')
+#6 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): WBCOM_Demo_Importer_Plugins_Manager->do_plugin_action('')
+#7 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\web-site-test\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wbcom_m...')
+#10 {main}
+  thrown in D:\xampp\htdocs\web-site-test\wp-content\plugins\gamipress-buddyboss-integration\gamipress-buddyboss.php on line 123
+
+2021-11-23T17:31:53+00:00 CRITICAL Uncaught Error: Call to undefined function gamipress_is_network_wide_active() in D:\xampp\htdocs\web-site-test\wp-content\plugins\gamipress-buddyboss-integration\gamipress-buddyboss.php:123
+Stack trace:
+#0 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): GamiPress_BuddyBoss::activate(false)
+#1 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\web-site-test\wp-admin\includes\plugin.php(698): do_action('activate_gamipr...', false)
+#4 D:\xampp\htdocs\web-site-test\wp-admin\plugins.php(58): activate_plugin('gamipress-buddy...', 'http://localhos...', false)
+#5 {main}
+  thrown in D:\xampp\htdocs\web-site-test\wp-content\plugins\gamipress-buddyboss-integration\gamipress-buddyboss.php on line 123
+
+2021-11-23T17:31:56+00:00 CRITICAL Uncaught Error: Call to undefined function gamipress_is_network_wide_active() in D:\xampp\htdocs\web-site-test\wp-content\plugins\gamipress-buddyboss-integration\gamipress-buddyboss.php:123
+Stack trace:
+#0 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): GamiPress_BuddyBoss::activate('')
+#1 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\web-site-test\wp-admin\plugins.php(193): do_action('activate_gamipr...')
+#4 {main}
+  thrown in D:\xampp\htdocs\web-site-test\wp-content\plugins\gamipress-buddyboss-integration\gamipress-buddyboss.php on line 123
+
+2021-11-23T17:31:57+00:00 CRITICAL Uncaught Error: Call to undefined function gamipress_is_network_wide_active() in D:\xampp\htdocs\web-site-test\wp-content\plugins\gamipress-buddyboss-integration\gamipress-buddyboss.php:123
+Stack trace:
+#0 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): GamiPress_BuddyBoss::activate('')
+#1 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\web-site-test\wp-admin\plugins.php(193): do_action('activate_gamipr...')
+#4 {main}
+  thrown in D:\xampp\htdocs\web-site-test\wp-content\plugins\gamipress-buddyboss-integration\gamipress-buddyboss.php on line 123
+
+2021-11-23T17:35:47+00:00 CRITICAL Uncaught Error: Call to undefined function gamipress_is_network_wide_active() in D:\xampp\htdocs\web-site-test\wp-content\plugins\gamipress-buddyboss-integration\gamipress-buddyboss.php:123
+Stack trace:
+#0 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): GamiPress_BuddyBoss::activate(false)
+#1 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\web-site-test\wp-admin\includes\plugin.php(698): do_action('activate_gamipr...', false)
+#4 D:\xampp\htdocs\web-site-test\wp-content\plugins\wbcom-demo-installer\core\plugins-manager.php(533): activate_plugin('gamipress-buddy...')
+#5 D:\xampp\htdocs\web-site-test\wp-content\plugins\wbcom-demo-installer\core\plugins-manager.php(134): WBCOM_Demo_Importer_Plugins_Manager->do_plugin_activate('gamipress-buddy...')
+#6 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): WBCOM_Demo_Importer_Plugins_Manager->do_plugin_action('')
+#7 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\web-site-test\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wbcom_m...')
+#10 {main}
+  thrown in D:\xampp\htdocs\web-site-test\wp-content\plugins\gamipress-buddyboss-integration\gamipress-buddyboss.php on line 123
+
+2021-11-23T17:55:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:55:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\Requests\Transport\cURL.php on line 165
+
+2021-11-23T17:55:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:55:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:55:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:55:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:55:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:55:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:55:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:55:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:55:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:55:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:56:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:56:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:56:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:56:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:56:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:56:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:56:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\class-wp-post-type.php on line 557
+
+2021-11-23T17:56:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:56:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:57:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:57:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:57:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:57:15+00:00 CRITICAL Uncaught Error: Call to undefined function bp_is_group_video_support_enabled() in D:\xampp\htdocs\web-site-test\wp-content\plugins\buddyboss-platform\bp-templates\bp-nouveau\includes\media\functions.php:186
+Stack trace:
+#0 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): bp_nouveau_media_localize_scripts(Array)
+#1 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\web-site-test\wp-content\plugins\buddyboss-platform\bp-templates\bp-nouveau\buddypress-functions.php(658): apply_filters('bp_core_get_js_...', Array)
+#3 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): BP_Nouveau->localize_scripts('')
+#4 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#5 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\xampp\htdocs\web-site-test\wp-content\plugins\buddyboss-platform\bp-core\bp-core-dependency.php(464): do_action('bp_enqueue_scri...')
+#7 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): bp_enqueue_scripts('')
+#8 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#9 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 D:\xampp\htdocs\web-site-test\wp-includes\script-loader.php(2083): do_action('wp_enqueue_scri...')
+#11 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): wp_enqueue_scripts('')
+#12 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#13 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\web-site-test\wp-includes\general-template.php(3015): do_action('wp_head')
+#15 D:\xampp\htdocs\web-site-test\wp-content\themes\reign-theme\header.php(17): wp_head()
+#16 D:\xampp\htdocs\web-site-test\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#17 D:\xampp\htdocs\web-site-test\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#18 D:\xampp\htdocs\web-site-test\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#19 D:\xampp\htdocs\web-site-test\wp-content\themes\reign-theme\404.php(9): get_header()
+#20 D:\xampp\htdocs\web-site-test\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#21 D:\xampp\htdocs\web-site-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#22 D:\xampp\htdocs\web-site-test\index.php(17): require('D:\\xampp\\htdocs...')
+#23 {main}
+  thrown in D:\xampp\htdocs\web-site-test\wp-content\plugins\buddyboss-platform\bp-templates\bp-nouveau\includes\media\functions.php on line 186
+
+2021-11-23T17:57:21+00:00 CRITICAL Uncaught Error: Call to undefined function bp_is_group_video_support_enabled() in D:\xampp\htdocs\web-site-test\wp-content\plugins\buddyboss-platform\bp-templates\bp-nouveau\includes\media\functions.php:186
+Stack trace:
+#0 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): bp_nouveau_media_localize_scripts(Array)
+#1 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\web-site-test\wp-content\plugins\buddyboss-platform\bp-templates\bp-nouveau\buddypress-functions.php(658): apply_filters('bp_core_get_js_...', Array)
+#3 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): BP_Nouveau->localize_scripts('')
+#4 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#5 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\xampp\htdocs\web-site-test\wp-content\plugins\buddyboss-platform\bp-core\bp-core-dependency.php(464): do_action('bp_enqueue_scri...')
+#7 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): bp_enqueue_scripts('')
+#8 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#9 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 D:\xampp\htdocs\web-site-test\wp-includes\script-loader.php(2083): do_action('wp_enqueue_scri...')
+#11 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(303): wp_enqueue_scripts('')
+#12 D:\xampp\htdocs\web-site-test\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#13 D:\xampp\htdocs\web-site-test\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\web-site-test\wp-includes\general-template.php(3015): do_action('wp_head')
+#15 D:\xampp\htdocs\web-site-test\wp-content\themes\reign-theme\header.php(17): wp_head()
+#16 D:\xampp\htdocs\web-site-test\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#17 D:\xampp\htdocs\web-site-test\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#18 D:\xampp\htdocs\web-site-test\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#19 D:\xampp\htdocs\web-site-test\wp-content\themes\reign-theme\404.php(9): get_header()
+#20 D:\xampp\htdocs\web-site-test\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#21 D:\xampp\htdocs\web-site-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#22 D:\xampp\htdocs\web-site-test\index.php(17): require('D:\\xampp\\htdocs...')
+#23 {main}
+  thrown in D:\xampp\htdocs\web-site-test\wp-content\plugins\buddyboss-platform\bp-templates\bp-nouveau\includes\media\functions.php on line 186
+
+2021-11-23T17:57:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:57:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:57:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:57:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:57:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:57:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:58:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php on line 60
+
+2021-11-23T17:58:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php on line 60
+
+2021-11-23T17:58:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\Requests\Transport\cURL.php on line 462
+
+2021-11-23T17:58:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\Requests\Transport\cURL.php on line 462
+
+2021-11-23T17:58:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T17:58:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php on line 60
+
+2021-11-23T17:58:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\Requests\Transport\cURL.php on line 165
+
+2021-11-23T18:10:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-content\plugins\buddyboss-platform\class-buddypress.php on line 794
+
+2021-11-23T18:10:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\Requests\Transport\cURL.php on line 165
+
+2021-11-23T18:10:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\Requests\Transport\cURL.php on line 165
+
+2021-11-23T18:10:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:10:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php on line 60
+
+2021-11-23T18:11:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+
+2021-11-23T18:23:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web-site-test\wp-includes\wp-db.php on line 2056
+

@@ -1,0 +1,394 @@
+/* tooltip css */
+.rtm-tooltip {
+    position: relative;
+    font-size: 11px;
+    color: #fff;
+    line-height: 16px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: #202e5b;
+    border-radius: 100%;
+    text-align: center;
+    cursor: help;
+}
+
+.rtm-tooltip .rtm-tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -110px;
+}
+
+.rtm-tooltip .rtm-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.rtm-tooltip:hover .rtm-tooltiptext {
+    visibility: visible;
+    bottom: 150%;
+}
+
+@media screen and (max-width: 670px) {
+    .rtm-tooltip {
+        margin-left: 50px;
+    }
+}
+
+
+.wbcom-metabox-tab span {
+    margin-right: 5px;
+}
+
+/**
+* CSS for vertical tabs :: Start
+*/
+
+#reign_postmeta_settings.postbox .inside {
+    margin: 0;
+    padding: 0;
+}
+.wbcom-metabox-wrapper {
+    display: flex;
+}
+/* Style the tab */
+.wbcom-metabox-tab {
+    border: 1px solid #eee;
+    border-top: 0;
+    border-left: 0;
+    background: linear-gradient(90deg,#fafafa 0,#fafafa 180px,#fff 180px,#fff 100%);
+    min-width: 180px;
+    min-height: 300px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.wbcom-metabox-tab button {
+    display: block;
+    background-color: inherit;
+    color: #555;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+/*.wbcom-metabox-tab button:hover {
+    background-color: #ddd;
+}*/
+
+/* Create an active/current "tab button" class */
+.wbcom-metabox-tab button.active {
+    background-color: #fff;
+    position: relative;
+}
+
+.wbcom-metabox-tab button.active:after {
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    display: block;
+    height: 36px;
+    right: -1px;
+    background: #ffffff;
+    z-index: 999;
+    top: 0;
+}
+
+/*.wbcom-metabox-wrapper .wbcom-metabox-tablinks {
+    border-bottom: 1px solid #eee;
+}*/
+
+/* Style the tab content */
+.wbcom-metabox-content {
+    padding: 20px 30px;
+    border-left: 0;
+    border-top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.wbcom-metabox-control {
+    display: flex;
+    width: 100%;
+    padding: 12px 0;
+    border-top: 1px dashed #ccc;
+}
+
+.wbcom-metabox-control:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.wbcom-metabox-desc {
+    flex: 0 0 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.wbcom-metabox-desc .rtm-tooltip {
+    margin-left: 5px;
+}
+
+.wbcom-metabox-field {
+    width: 50%;
+}
+
+.wbcom-metabox-field .select2.select2-container.select2-container--default {
+    width: 100% !important;
+}
+
+.wbcom-metabox-field .select2-container--default .select2-selection--single {
+    background-color: #f5f5f5 !important;;
+    color: #333;
+    border: 1px solid #aaa !important;
+    font-size: 13px;
+    padding: 5px 12px;
+    height: 34px !important;;
+    line-height: 22px !important;;
+    width: 100%;
+    border-radius: 0 !important;;
+    margin: 0;
+    outline: 0;
+    box-shadow: none !important;
+    box-sizing: border-box;
+}
+
+.wbcom-metabox-field .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: inherit;
+    padding: 0;
+}
+
+.wbcom-metabox-field .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 34px;
+    top: 0;
+    right: 7px;
+}
+/**
+* CSS for vertical tabs :: End
+*/
+
+button.wbcom-metabox-tablinks.header_footer {
+    position: relative;
+}
+
+/**
+* Media Query
+*/
+@media (max-width: 480px) {
+    .wbcom-metabox-wrapper {
+        display: block;
+    }
+
+    .wbcom-metabox-tab button {
+        width: 70%;
+    }
+
+    .wbcom-metabox-content {
+        padding: 20px 0;
+    }
+
+    .wbcom-metabox-tab {
+        min-height: 150px;
+    }
+}
+
+/**
+* Reign Post Formats
+*/
+.reign_post_format-settings {
+    padding: 10px 0 0;
+}
+
+.reign_post_format-settings .reign_input_section {
+    padding: 10px 0 20px 0;
+}
+
+.format-setting-label {
+    border-bottom: 1px dashed #ccc;
+    margin: 0 0 20px 0;
+    padding: 5px 0px 1px 0px;
+    width: 100%;
+}
+
+.format-setting-label .label {
+    background: none;
+    border: none;
+    color: #222;
+    cursor: text;
+    display: block;
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 1.6em;
+    letter-spacing: 0;
+    padding: 0 0 9px 0;
+    -webkit-user-select: text;
+    text-shadow: none;
+}
+
+input#reign_post_audio,
+input#reign_post_video {
+    width: calc(100% - 60px);
+}
+
+.reign_quote_format_setting textarea {
+    width: 99.9%;
+    border: 1px solid #ccc;
+    font-family: Consolas, Monaco, monospace;
+    line-height: 150%;
+    outline: 0;
+    padding: 10px;
+    resize: vertical;
+}
+
+.reign_quote_format_setting input,
+.reign_link_format_setting input {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.reign_audio_format_setting .reign_upload_media,
+.reign_video_format_setting .reign_upload_media {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+}
+
+.reign_images_gallery {
+
+}
+
+.reign_images_gallery:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.reign_images_gallery li {
+    position: relative;
+    float: left;
+    padding: 8px;
+    margin: 0;
+    color: #444;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 33.3333%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+    .reign_images_gallery li {
+        width: 20%;
+    }
+}
+
+@media (min-width: 800px) {
+    .reign_images_gallery li {
+        width: 15%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .reign_images_gallery li {
+        width: 11.11%;
+    }
+}
+
+.reign_images_gallery .thumbnail {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity .1s;
+}
+
+.reign_images_gallery .thumbnail:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.reign_images_gallery .thumbnail .centered {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate( 50%, 50% );
+}
+
+.reign_images_gallery .thumbnail .centered img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate( -50%, -50% );
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.reign_images_gallery .actions .delete {
+    display: none;
+    height: 24px;
+    width: 24px;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    outline: none;
+    text-decoration: none;
+    background: #eee;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 2px rgba(0, 0, 0, 0.15);
+}
+
+.reign_images_gallery li:hover .actions .delete {
+    display: block;
+}
+
+.reign_images_gallery .actions .delete i {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

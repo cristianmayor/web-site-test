@@ -1,0 +1,1401 @@
+/**
+ * Micro clearfix, as per: http://cssmojo.com/latest_new_clearfix_so_far/
+ * Extend the clearfix class with Sass to avoid the `.clearfix` class appearing
+ * over and over in your markup.
+ */
+/* Header icons */
+.shiftnav-toggle.shiftnav-toggle-shiftnav-second .ps-widget--userbar__avatar.ps-avatar {
+  width: 40px;
+  max-width: 40px;
+  height: 40px;
+  margin: 4px;
+}
+.shiftnav-toggle.shiftnav-toggle-shiftnav-second .ps-widget--userbar__avatar.ps-avatar img {
+  max-width: 40px;
+  padding: 0;
+  border: 0;
+}
+
+#masthead .widget_peepsowidgetuserbar .ps-widget--userbar__notifications {
+  margin-right: 0;
+}
+#masthead .widget_peepsowidgetuserbar .ps-widget--userbar__notifications > span:last-child {
+  margin-left: 5px;
+}
+#masthead .widget_peepsowidgetuserbar .ps-avatar {
+  width: 40px;
+  max-width: 40px;
+  height: 40px;
+}
+#masthead .widget_peepsowidgetuserbar .ps-avatar img {
+  padding: 0;
+  border: 0;
+}
+#masthead .widget_peepsowidgetuserbar .ps-widget--userbar__name {
+  margin-right: 10px;
+}
+#masthead .widget_peepsowidgetuserbar .ps-dropdown--userbar {
+  margin-right: 0;
+  padding-right: 4px;
+  padding-left: 6px;
+  border-right: 0;
+  height: 90px;
+  line-height: 90px;
+}
+#masthead .widget_peepsowidgetuserbar .ps-dropdown__toggle.ps-js-dropdown-toggle {
+  border: 0 !important;
+}
+#masthead .widget_peepsowidgetuserbar .ps-icon-angle-down:before {
+  font-size: 16px;
+  font-weight: 600;
+}
+#masthead .widget_peepsowidgetuserbar .ps-popover {
+  top: 100% !important;
+}
+
+.ps-notification {
+  padding: 5px 10px;
+}
+
+/* Activity Page */
+#peepso-wrap {
+  padding: 0;
+}
+
+/* Sidebar Widgets */
+.plg-peepso .widget-area .widget-area-inner {
+  overflow: visible;
+}
+
+body .widget-area a.ps-notification__inside {
+  display: flex;
+}
+
+.widget-area .ps-widget--profile__menu > a {
+  display: block !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.widget-area .ps-widget--profile__title {
+  font-size: 0.9375rem;
+  margin-bottom: 15px;
+}
+
+.ps-widget--profile__cover-wrapper {
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .plg-peepso aside.widget-area {
+    order: 2;
+  }
+}
+/* Header Social Icons */
+.reign-social-icons {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+}
+@media (min-width: 61.24em) {
+  .reign-social-icons {
+    bottom: 55px;
+    left: 20px;
+  }
+}
+.reign-social-icons ul {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 480px) {
+  .reign-social-icons ul {
+    flex-direction: column;
+  }
+}
+.reign-social-icons ul li {
+  margin: 0 2px;
+  padding: 2px;
+  width: 26px;
+  height: 26px;
+  line-height: 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5) !important;
+  color: #424242 !important;
+}
+@media only screen and (max-width: 480px) {
+  .reign-social-icons ul li {
+    margin: 2px;
+  }
+}
+.reign-social-icons ul li .fa {
+  font-size: 16px;
+}
+
+.ps-focus__footer {
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.035);
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .page-template-page-peepso-single-layout.reign-both_sidebar .reign-peepso-page .content-wrapper {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/* PeepSo Tab Style */
+.ps-tabs__wrapper {
+  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.ps-tabs__wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.ps-tabs__wrapper {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* PeepSo List Dots */
+.ps-list-info-content-data {
+  margin-top: 15px;
+}
+.ps-list-info-content-data .ps-list.ps-list--dots {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.ps-list-info-content-data .ps-list.ps-list--dots span {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 8px;
+}
+.ps-list-info-content-data .ps-list.ps-list--dots span:before {
+  content: none;
+}
+
+.ps-profile__about-field-static .ps-list.ps-list--dots span {
+  display: block;
+}
+
+/* PeepSo WPForo */
+#wpforo-wrap .wpforo-profile-account .wpf-field-type-avatar li {
+  position: relative;
+  padding-right: 20px;
+}
+
+.peepso #wpforo-wrap .wpf-field-type-checkbox [type="checkbox"]:not(:checked),
+.peepso #wpforo-wrap .wpf-field-type-checkbox [type="checkbox"]:checked {
+  opacity: 1;
+}
+
+.peepso #wpforo-wrap .wpf-field-type-checkbox .wpf-field-item {
+  position: relative;
+  padding-right: 20px;
+}
+
+#wpforo-wrap .wpf-field select {
+  height: 30px;
+}
+
+#wpforo-wrap .wpf-field .wpf-label {
+  padding: 0 3px 5px;
+}
+
+#wpforo-wrap .wpf-sbtn.wpf-sb-style-grey .wpf-sb-button.wpf-sb-icon {
+  border: 1px solid #bbbbbb !important;
+}
+
+@media screen and (max-width: 800px) {
+  #wpforo-wrap .wpforo-profile-account .wpfw-3:nth-child(2),
+  #wpforo-wrap .wpforo-profile-account .wpfw-3:nth-child(3),
+  #wpforo-wrap .wpforo-profile-account .wpf-field-type-avatar input[type="url"] {
+    width: 100%;
+  }
+
+  #wpforo-wrap .wpforo-profile-account .wpfw-3:nth-child(2) .wpf-field,
+  #wpforo-wrap .wpforo-profile-account .wpfw-3:nth-child(3) .wpf-field {
+    text-align: right;
+  }
+}
+/* Edit Profile */
+.ps-js-profile-item .ps-list-info-action {
+  top: 10px;
+}
+
+/* Classifieds */
+.ps-page--classifieds #component {
+  position: relative;
+}
+
+@media (max-width: 959px) {
+  .reign_peepso_active .ps-widget--userbar__notifications,
+  .reign_peepso_active .ps-widget--userbar__notifications .rg-icon-wrap {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .widget_peepsowidgetuserbar .fa {
+    font-weight: 600;
+  }
+
+  .reign_peepso_active .widget_peepsowidgetuserbar {
+    margin-left: 10px;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__avatar {
+    width: 25px;
+    margin: 0;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .ps-avatar img {
+    max-width: 22px;
+    max-height: 22px;
+    padding: 0;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .ps-dropdown--userbar,
+  .reign_peepso_active #shiftnav-toggle-main .ps-icon-angle-down:before,
+  .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__logout {
+    margin: 0;
+    padding: 0;
+  }
+
+  .ps-dropdown--right .ps-dropdown__menu {
+    top: -webkit-calc(100% + 20px);
+    top: calc(100% + 20px);
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .ps-dropdown--right .ps-dropdown__menu a,
+  .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__notifications .app-box {
+    display: block;
+    color: #333;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__notifications .rg-count {
+    top: 6px;
+    width: 16px;
+    height: 16px;
+    font-size: 9px;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .ps-popover {
+    top: 100% !important;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .ps-notification__body,
+  .reign_peepso_active #shiftnav-toggle-main .ps-comment-body {
+    text-align: right;
+  }
+}
+@media (max-width: 420px) {
+  .reign_peepso_active #shiftnav-toggle-main .rg-icon-wrap {
+    width: 22px !important;
+    font-size: 16px;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__notifications .rg-count {
+    left: -6px;
+  }
+
+  .reign_peepso_active:not(.logged-in) #shiftnav-toggle-main .rg-icon-wrap {
+    width: 46px !important;
+    font-size: 18px;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .shiftnav-main-toggle-content {
+    padding: 16px 45px !important;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main a.ps-user-name {
+    font-size: 12px;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__avatar {
+    width: 20px !important;
+  }
+
+  .reign_peepso_active #shiftnav-toggle-main .ps-avatar img {
+    max-width: 20px !important;
+    max-height: 20px !important;
+  }
+
+  .reign_peepso_active .widget_peepsowidgetuserbar {
+    margin-left: 0 !important;
+  }
+}
+.ps-widget--userbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.reign_peepso_active .widget-area {
+  z-index: 99;
+}
+
+.ps-toolbar {
+  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+}
+
+.peepso h2.widget-title {
+  border-bottom: 1px solid #e3e3e3 !important;
+}
+
+/* peepso multivendor plugin specific */
+.wbpm-peepo-multivendor-wrapper.dokan-dashboard .dokan-dashboard-content {
+  padding: 0;
+}
+
+.peepso .wbpm-peepo-multivendor-wrapper .woocommerce .products .button {
+  border-radius: 30px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  padding: 0 10px !important;
+}
+
+/* peepso bbpress plugin specific */
+#bbp-user-navigation .bbp-user-edit-link {
+  display: block !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+.reign-peepso-page header.entry-header {
+  display: none;
+}
+
+.reign-peepso-page #bbp-user-navigation ul {
+  border: 0;
+}
+
+#bbpress-forums div.bbp-search-form input[type="submit"] {
+  background: transparent url(../img/svg/search.svg) no-repeat 7px !important;
+}
+
+#bbpress-forums #bbp-user-wrapper ul.bbp-replies {
+  clear: both;
+}
+
+/* PS Tabs Slider */
+#component .ps-tabs .slick-next,
+#component .ps-tabs .slick-prev,
+#bbp-user-navigation > ul .slick-next,
+#bbp-user-navigation > ul .slick-prev,
+.ps-profile__edit-tabs > .slick-next,
+.ps-profile__edit-tabs > .slick-prev {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: #fff !important;
+  border: 0;
+  font-size: 0;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  line-height: 5px;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  z-index: 1;
+}
+#component .ps-tabs .slick-next.slick-disabled,
+#component .ps-tabs .slick-prev.slick-disabled,
+#bbp-user-navigation > ul .slick-next.slick-disabled,
+#bbp-user-navigation > ul .slick-prev.slick-disabled,
+.ps-profile__edit-tabs > .slick-next.slick-disabled,
+.ps-profile__edit-tabs > .slick-prev.slick-disabled {
+  opacity: .3;
+}
+
+#component .ps-tabs .slick-next:before,
+#component .ps-tabs .slick-prev:before,
+#bbp-user-navigation > ul .slick-next:before,
+#bbp-user-navigation > ul .slick-prev:before,
+.ps-profile__edit-tabs > .slick-next:before,
+.ps-profile__edit-tabs > .slick-prev:before {
+  font-size: 21px;
+  font-family: 'dashicons';
+  content: "\f341";
+  color: #fff;
+}
+
+#component .ps-tabs .slick-next:before,
+#bbp-user-navigation > ul .slick-next:before,
+.ps-profile__edit-tabs > .slick-next:before {
+  content: "\f345";
+}
+
+#component .ps-tabs .slick-next,
+#bbp-user-navigation > ul .slick-next,
+.ps-profile__edit-tabs > .slick-next {
+  left: 0;
+}
+
+#component .ps-tabs .slick-prev,
+#bbp-user-navigation > ul .slick-prev,
+.ps-profile__edit-tabs > .slick-prev {
+  right: 0;
+}
+
+label[for=account_first_name] {
+  display: block;
+  margin-bottom: 5px;
+}
+
+body #component .ps-tabs .slick-list,
+body #bbp-user-navigation .slick-list,
+body .ps-profile__edit-tabs .slick-list {
+  border-radius: 5px;
+}
+
+/*--------------------------------------------------------------
+# PeepSo 3.0
+--------------------------------------------------------------*/
+/* Common */
+.gci,
+.gcis,
+.gcir {
+  font-family: "Font Awesome 5 Free" !important;
+}
+
+.gcib {
+  font-family: "Font Awesome 5 Brands" !important;
+}
+
+.ps-notif__bubble {
+  min-width: 13px;
+  text-align: center;
+}
+
+.ps-post {
+  font-size: inherit;
+}
+
+.ps-post,
+.ps-postbox,
+.ps-navbar,
+.ps-posts__filters-group,
+.ps-tabs.ps-members__tabs,
+.ps-member,
+.ps-members__header,
+.ps-group,
+.ps-focus,
+.ps-profile__edit,
+.ps-group__edit-fields,
+.ps-friends__tabs-inner,
+.ps-member__buttons .ps-member__action,
+.ps-postbox__menu-item--type .ps-postbox__menu-item-link,
+.ps-members__filters {
+  box-shadow: none;
+  border: 1px solid #e3e3e3;
+}
+
+.ps-postbox__footer,
+.ps-posts__filter-toggle,
+.ps-tabs__item,
+.ps-member__actions,
+.ps-member__actions .ps-member__action,
+.ps-members__search,
+.ps-group__actions,
+.ps-group__action,
+.ps-focus__menu,
+.ps-focus__menu-item,
+.ps-profile__about-header,
+.ps-profile__about-field,
+.ps-profile__preferences .ps-form__legend,
+.ps-profile__notification-header,
+.ps-profile__notifications-row,
+.ps-group__edit-field,
+.ps-friends__tab,
+.ps-comments__list,
+.ps-comments--nested .ps-comment {
+  border-color: #e3e3e3;
+}
+
+.peepso .ps-input, .ps-lightbox .ps-input,
+.ps-landing .ps-input,
+.ps-chat__wrapper .ps-input,
+.ps-modal__wrapper .ps-input,
+.psw-profile .ps-input,
+.gc-widget .ps-input,
+.widget .ps-input,
+.ps-widget__wrapper--external .ps-input,
+.peepso .ps-input.ps-input--select:read-only:hover,
+.ps-lightbox .ps-input.ps-input--select:read-only:hover,
+.ps-landing .ps-input.ps-input--select:read-only:hover,
+.ps-chat__wrapper .ps-input.ps-input--select:read-only:hover,
+.ps-modal__wrapper .ps-input.ps-input--select:read-only:hover,
+.psw-profile .ps-input.ps-input--select:read-only:hover,
+.gc-widget .ps-input.ps-input--select:read-only:hover,
+.widget .ps-input.ps-input--select:read-only:hover,
+.ps-widget__wrapper--external .ps-input.ps-input--select:read-only:hover,
+.peepso .ps-input.ps-input--select:read-only:focus,
+.ps-lightbox .ps-input.ps-input--select:read-only:focus,
+.ps-landing .ps-input.ps-input--select:read-only:focus,
+.ps-chat__wrapper .ps-input.ps-input--select:read-only:focus,
+.ps-modal__wrapper .ps-input.ps-input--select:read-only:focus,
+.psw-profile .ps-input.ps-input--select:read-only:focus,
+.gc-widget .ps-input.ps-input--select:read-only:focus,
+.widget .ps-input.ps-input--select:read-only:focus,
+.ps-widget__wrapper--external .ps-input.ps-input--select:read-only:focus,
+.peepso .ps-input:hover, .ps-lightbox .ps-input:hover,
+.ps-landing .ps-input:hover,
+.ps-chat__wrapper .ps-input:hover,
+.ps-modal__wrapper .ps-input:hover,
+.psw-profile .ps-input:hover,
+.gc-widget .ps-input:hover,
+.widget .ps-input:hover,
+.ps-widget__wrapper--external .ps-input:hover,
+.peepso .ps-input:focus, .ps-lightbox .ps-input:focus,
+.ps-landing .ps-input:focus,
+.ps-chat__wrapper .ps-input:focus,
+.ps-modal__wrapper .ps-input:focus,
+.psw-profile .ps-input:focus,
+.gc-widget .ps-input:focus,
+.widget .ps-input:focus,
+.ps-widget__wrapper--external .ps-input:focus,
+.ps-checkbox__label:before {
+  border: 1px solid #e3e3e3;
+}
+
+.ps-members__search .ps-input {
+  border: 0;
+}
+
+.ps-tabs--arrows .ps-tabs__item--active:before,
+.ps-friends__tab--active:before {
+  border-top-color: #e3e3e3;
+}
+
+.ps-reactions__likes:before {
+  border-left-color: #e3e3e3;
+}
+
+.ps-input {
+  font-size: inherit;
+  color: inherit;
+}
+
+.ps-input:hover,
+.ps-input:focus {
+  border: 1px solid #e3e3e3;
+}
+
+.ps-members__search .ps-input:hover,
+.ps-members__search .ps-input:focus {
+  border: 0;
+}
+
+/* Desktop Icons */
+#masthead .widget_peepsowidgetuserbar .ps-avatar,
+#masthead .psw-userbar__name,
+#masthead .ps-dropdown--menu,
+#masthead .psw-userbar__logout {
+  order: 2;
+}
+#masthead .psw-notifs--userbar {
+  margin-right: 0;
+  margin-left: 15px;
+}
+#masthead .ps-notif__box {
+  top: 100% !important;
+}
+#masthead .ps-dropdown--menu {
+  height: 90px;
+  line-height: 90px;
+}
+#masthead .ps-widget--userbar__notifications > span {
+  margin-left: 0;
+}
+
+/* Mobile Icons */
+.shiftnav-main-toggle-content .widget_peepsowidgetuserbar .ps-avatar,
+.shiftnav-main-toggle-content .widget_peepsowidgetuserbar .psw-userbar__name,
+.shiftnav-main-toggle-content .widget_peepsowidgetuserbar .ps-dropdown--menu,
+.shiftnav-main-toggle-content .widget_peepsowidgetuserbar .ps-widget--userbar__name,
+.shiftnav-main-toggle-content .widget_peepsowidgetuserbar .ps-dropdown,
+.shiftnav-main-toggle-content .widget_peepsowidgetuserbar .ps-widget--userbar__avatar {
+  display: none;
+}
+.shiftnav-main-toggle-content .widget_peepsowidgetuserbar .psw-userbar__logout {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.shiftnav-main-toggle-content .widget_peepsowidgetuserbar .ps-widget--userbar__notifications > span:last-child {
+  margin-left: 6px;
+}
+
+/* PeepSo Buttons */
+.ps-btn:not(.ps-tip):not(a):not(.ps-js-btn-edit):not(.ps-js-btn-edit-all):not(.ps-js-btn-cancel):not(.ps-js-btn-submit):not(.ps-js-cancel):not(.ps-js-submit) {
+  float: none;
+  display: inline-block;
+  color: #FFF;
+  padding: 7px 15px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.5;
+  border-radius: 3px;
+  transition: all .3s;
+  cursor: pointer;
+  font-weight: 400;
+  text-shadow: none;
+  font-family: inherit;
+}
+
+.ps-js-btn-edit-all i {
+  margin-left: 5px;
+}
+
+/* PeepSo Activity */
+.ps-reactions__likes + .ps-post__action:last-child {
+  margin-right: 0;
+}
+
+.ps-tabs.ps-profile__edit-tabs {
+  margin-top: 0;
+}
+
+#component .ps-tabs.ps-profile__edit-tabs {
+  /*    margin: -15px;*/
+  margin-bottom: 15px;
+}
+
+.ps-js-reign-socials-toggle {
+  order: 1;
+  font-size: 14px;
+}
+
+.ps-post,
+.ps-post__action,
+.ps-media__title {
+  color: inherit;
+}
+
+.ps-post__action:not(.ps-reaction):last-child {
+  margin-left: 0;
+}
+
+.ps-post__action:not(.ps-reaction):last-child {
+  margin-left: 0;
+}
+
+.ps-comments__reply-send {
+  flex: 0 0 auto;
+}
+
+.ps-comments__input,
+.ps-reactions__dropdown {
+  border: 1px solid #e3e3e3;
+}
+
+.ps-comments__input-wrapper .ps-postbox__input-tag {
+  line-height: 0;
+}
+
+.ps-reaction__like {
+  filter: none;
+}
+
+@media (max-width: 480px) {
+  .ps-comments__reply {
+    flex-flow: row wrap;
+  }
+
+  .ps-comments__input-wrapper {
+    width: calc(100% - 50px);
+  }
+}
+.ps-lightbox__nav:hover,
+.ps-lightbox__nav:focus {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* PeepSo Members */
+@media (max-width: 480px) {
+  .ps-members {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.ps-navbar {
+  color: initial;
+}
+
+/* PeepSo Groups */
+@media (max-width: 480px) {
+  .ps-groups__list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ps-groups__header-inner {
+    justify-content: flex-start;
+    flex-flow: wrap;
+  }
+
+  .ps-groups__header .ps-groups__search {
+    margin-bottom: 10px;
+  }
+}
+.ps-modal__content .ps-members-item {
+  margin-top: 15px;
+}
+
+.ps-btn__group .ps-btn--app {
+  color: inherit;
+}
+
+/* Create Group */
+.ps-form--group .ps-form__row {
+  text-align: right;
+}
+.ps-form--group .ps-form__label {
+  width: 100px;
+  text-align: right;
+}
+.ps-form--group .ps-btn {
+  font-size: 90%;
+  line-height: 1.2;
+}
+
+/* Single Member */
+@media (max-width: 480px) {
+  .ps-focus__cover:before {
+    padding-top: 200px;
+  }
+}
+.ps-icon-edit.wbpwi-frontend-icon.orders {
+  line-height: 0;
+}
+
+.ps-dropdown--menu .ps-dropdown__menu i.ps-icon-edit {
+  display: inline-block;
+}
+
+.ps-list--share .ps-list__item {
+  margin: 0 0 10px 5px;
+  display: inline-block;
+}
+
+.ps-focus__cover-action .ps-dropdown__menu {
+  right: auto;
+  left: 0;
+  padding: 10px;
+}
+.ps-focus__cover-action .ps-dropdown__menu > a {
+  display: block;
+  padding: 5px;
+}
+
+.ps-focus__details > a,
+.ps-posts__filter-select label,
+.ps-profile__edit-tabs .ps-tabs__item > a {
+  color: inherit;
+}
+
+.ps-btn:disabled,
+.ps-btn.ps-btn--disabled {
+  color: inherit;
+  cursor: not-allowed !important;
+}
+
+.ps-profile__edit-tabs .ps-tabs__item--active > a {
+  border-bottom: 1px solid transparent !important;
+}
+
+.ps-alert,
+.ps-alert p {
+  color: #2979ff !important;
+  background-color: #e3f2fd !important;
+}
+
+.ps-input:disabled,
+.ps-input:read-only,
+.ps-input.ps-input--disabled {
+  border: 1px solid #e3e3e3;
+}
+
+.ps-input.ps-input--select:read-only:hover {
+  border: 1px solid #e3e3e3;
+}
+
+.ps-form.ps-form--album .ps-form__row {
+  text-align: right;
+}
+.ps-form.ps-form--album .ps-form__row--half {
+  width: 100%;
+}
+.ps-form.ps-form--album .ps-form__label {
+  width: 150px;
+  text-align: right;
+}
+.ps-form.ps-form--album .ps-btn {
+  font-size: 90%;
+  line-height: 1.2;
+}
+.ps-form.ps-form--album .ps-select,
+.ps-form.ps-form--album .ps-textarea {
+  border-radius: 3px;
+}
+
+.ps-photos__upload-area.ps-js-photos-upload {
+  margin-right: 150px;
+}
+@media (max-width: 980px) {
+  .ps-photos__upload-area.ps-js-photos-upload {
+    margin-right: 0px;
+  }
+}
+
+.ps-icon-upload {
+  cursor: pointer;
+}
+
+.ps-tabs__count,
+.ps-friends__tab span.ps-tabs__count {
+  min-width: 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+}
+
+.ps-photos__header {
+  z-index: 99;
+  position: relative;
+}
+
+.ps-photos__list-item-inner img.loaded {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Single Group */
+.ps-focus__detail .ps-btn {
+  color: inherit;
+}
+
+.ps-focus__details i {
+  color: inherit;
+}
+
+.ps-filters .ps-filters__item {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ps-filters .ps-filters__item-label {
+  width: 100px;
+  text-align: right;
+  display: inline-block;
+}
+
+/* Sidebar Widgets */
+.ps-form--login .ps-input--icon {
+  padding-right: 40px !important;
+  border: 0 !important;
+}
+
+.ps-widget--external {
+  font-size: inherit;
+}
+
+.ps-form--login-widget .ps-form__field {
+  position: relative;
+}
+.ps-form--login-widget .ps-input__prepend {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+.ps-form--login-widget .ps-input {
+  padding-right: 40px !important;
+  border: 0 !important;
+}
+.ps-form--login-widget button.ps-btn {
+  font-size: 100%;
+  line-height: 1.2;
+}
+
+.widget-area-inner .widget.widget_peepsowidgetme,
+.widget-area .widget.widget_peepsowidgetme {
+  padding: 20px;
+  border-radius: 4px;
+}
+.widget-area-inner .widget.widget_peepsowidgetme .psw-profile__avatar,
+.widget-area .widget.widget_peepsowidgetme .psw-profile__avatar {
+  margin-right: -20px;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+.widget-area-inner .widget.widget_peepsowidgetme .psw-profile__cover,
+.widget-area .widget.widget_peepsowidgetme .psw-profile__cover {
+  border-radius: 4px 4px 0 0;
+}
+.widget-area-inner .widget.widget_peepsowidgetme .psw-profile__menu,
+.widget-area-inner .widget.widget_peepsowidgetme .psw-profile__menu-title,
+.widget-area .widget.widget_peepsowidgetme .psw-profile__menu,
+.widget-area .widget.widget_peepsowidgetme .psw-profile__menu-title {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+.widget-area-inner .widget.widget_peepsowidgetme .psw-profile__menu-item,
+.widget-area .widget.widget_peepsowidgetme .psw-profile__menu-item {
+  font-size: inherit;
+}
+.widget-area-inner .widget.widget_peepsowidgetme .psw-profile__menu-item:last-child,
+.widget-area .widget.widget_peepsowidgetme .psw-profile__menu-item:last-child {
+  border-bottom: 0;
+}
+
+.psw-profile__menu-item {
+  color: inherit;
+}
+
+/* VIP */
+.ps-vip__icon {
+  max-width: 16px !important;
+}
+
+.ps-focus .ps-vip__icon {
+  max-width: 20px !important;
+}
+
+/* BadgeOS */
+.ps-badgeos__item {
+  margin-left: 5px;
+}
+
+@media (max-width: 61.24em) {
+  .ps-badgeos__list-wrapper {
+    padding-right: 20px;
+    text-align: center;
+  }
+  .ps-badgeos__list-wrapper .ps-badgeos__list {
+    justify-content: center;
+  }
+}
+
+#component .badgeos_achievement_main_container,
+#component .badgeos_ranks_main_container {
+  margin: 0;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+#component .badgeos_achievement_main_container ul.ls_grid_container.list .ps-badgeos__item,
+#component .badgeos_ranks_main_container ul.ls_grid_container.list .ps-badgeos__item {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#component .badgeos_achievement_main_container .ps-badgeos__item-desc p,
+#component .badgeos_ranks_main_container .ps-badgeos__item-desc p {
+  margin: 0;
+}
+#component .badgeos_achievement_main_container .ps-badgeos__item-image,
+#component .badgeos_ranks_main_container .ps-badgeos__item-image {
+  margin-left: 15px;
+}
+#component .badgeos_achievement_main_container a.ps-badgeos__item-title,
+#component .badgeos_ranks_main_container a.ps-badgeos__item-title {
+  font-size: 18px;
+}
+#component .badgeos_achievement_main_container #badgeos-achievements-container,
+#component .badgeos_ranks_main_container #badgeos-achievements-container {
+  border: 0;
+}
+#component .badgeos_achievement_main_container .ps-badgeos__item-desc,
+#component .badgeos_ranks_main_container .ps-badgeos__item-desc {
+  width: calc(100% - 65px);
+}
+#component .badgeos_achievement_main_container ul.ls_grid_container.grid,
+#component .badgeos_ranks_main_container ul.ls_grid_container.grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+#component .badgeos_achievement_main_container #badgeos-earned-achievements-container .grid > li,
+#component .badgeos_achievement_main_container #badgeos-achievements-container .grid > li,
+#component .badgeos_achievement_main_container #badgeos-list-ranks-container .grid > li,
+#component .badgeos_achievement_main_container #badgeos-earned-ranks-container .grid > li,
+#component .badgeos_ranks_main_container #badgeos-earned-achievements-container .grid > li,
+#component .badgeos_ranks_main_container #badgeos-achievements-container .grid > li,
+#component .badgeos_ranks_main_container #badgeos-list-ranks-container .grid > li,
+#component .badgeos_ranks_main_container #badgeos-earned-ranks-container .grid > li {
+  float: none;
+  width: calc(50% - 20px);
+  border: 1px solid #e3e3e3;
+  padding: 20px;
+  margin: 10px;
+}
+@media (max-width: 543px) {
+  #component .badgeos_achievement_main_container #badgeos-earned-achievements-container .grid > li,
+  #component .badgeos_achievement_main_container #badgeos-achievements-container .grid > li,
+  #component .badgeos_achievement_main_container #badgeos-list-ranks-container .grid > li,
+  #component .badgeos_achievement_main_container #badgeos-earned-ranks-container .grid > li,
+  #component .badgeos_ranks_main_container #badgeos-earned-achievements-container .grid > li,
+  #component .badgeos_ranks_main_container #badgeos-achievements-container .grid > li,
+  #component .badgeos_ranks_main_container #badgeos-list-ranks-container .grid > li,
+  #component .badgeos_ranks_main_container #badgeos-earned-ranks-container .grid > li {
+    width: 100%;
+  }
+}
+#component .badgeos_achievement_main_container .ps-badgeos__item,
+#component .badgeos_ranks_main_container .ps-badgeos__item {
+  width: 100%;
+}
+
+#badgeos-earned-achievements-container ul,
+#badgeos-achievements-container ul,
+#badgeos-earned-ranks-container ul,
+#badgeos-list-ranks-container ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#badgeos-earned-achievements-container .list > li:last-child,
+#badgeos-achievements-container .list > li:last-child,
+#badgeos-list-ranks-container .list > li:last-child,
+#badgeos-earned-ranks-container .list > li:last-child {
+  border: 0;
+}
+
+/* myCred */
+.ps-focus__details #points-count > strong {
+  margin-left: 3px;
+}
+
+/* WooCommerce Integration */
+.ps-icon-edit.wbpwi-frontend-icon.rma-requests,
+.ps-icon-edit.wbpwi-frontend-icon.rma-requests:before,
+.ps-icon-edit.wbpwi-frontend-icon.following,
+.ps-icon-edit.wbpwi-frontend-icon.following:before,
+.ps-icon-edit.wbpwi-frontend-icon.support-tickets,
+.ps-icon-edit.wbpwi-frontend-icon.support-tickets:before {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+}
+
+.ps-icon-edit.wbpwi-frontend-icon.rma-requests:before {
+  content: '\f079';
+}
+
+.ps-icon-edit.wbpwi-frontend-icon.following:before {
+  content: '\f406';
+}
+
+.ps-icon-edit.wbpwi-frontend-icon.support-tickets:before {
+  content: '\f3ff';
+}
+
+/* bbPress Integration */
+.page-template-page-peepso-single-layout .bbp-header-search-wrap {
+  display: none;
+}
+
+#bbp-user-navigation ul.slick-slider {
+  border: 0;
+}
+
+#bbp-user-navigation > ul .slick-next,
+#bbp-user-navigation > ul .slick-prev {
+  top: 44%;
+}
+
+.wbpbi-bbpress-page #bbpress-forums #bbp-single-user-details #bbp-user-navigation ul li a {
+  padding: 12px 18px;
+  border: 1px solid #e3e3e3;
+  border-bottom: 0;
+}
+
+.bbp-body #mycred-users-badges {
+  margin-right: 10px;
+}
+
+/* wpForo Integration */
+.peepso .peepso-wp-subscriptions .wpforo-main [type=checkbox] {
+  margin-left: 10px;
+}
+
+.peepso .peepso-wp-subscriptions .wpforo-main .wpf-sbs-bulk {
+  margin-bottom: 15px;
+}
+
+.wpf-sbs-bulk-options ul {
+  margin: 0 0 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.wpf-sbs-bulk-options label.wpf-sbsp {
+  margin-left: 15px;
+}
+
+/* LearnDash Integration */
+.lm-course-item:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* LearnDash Integration */
+.peepso-lifterlms-wrapper .llms-progress {
+  color: #fff;
+}
+
+.peepso-lifterlms-wrapper .llms-certificate {
+  padding: 16px 8px;
+}
+
+/* GamiPress */
+.ps-focus__info .gamipress-peepso-points,
+.ps-focus__info .gamipress-peepso-achievements .gamipress-peepso-achievement,
+.ps-focus__info .gamipress-peepso-ranks .gamipress-peepso-rank {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+@media (max-width: 61.24em) {
+  .ps-focus__info .gamipress-peepso-points,
+  .ps-focus__info .gamipress-peepso-achievements .gamipress-peepso-achievement,
+  .ps-focus__info .gamipress-peepso-ranks .gamipress-peepso-rank {
+    justify-content: center;
+  }
+}
+.ps-focus__info .center-view .gamipress-peepso-points,
+.ps-focus__info .center-view .gamipress-peepso-achievements .gamipress-peepso-achievement,
+.ps-focus__info .center-view .gamipress-peepso-ranks .gamipress-peepso-rank {
+  justify-content: center;
+}
+
+.ps-focus__info .gamipress-peepso-achievements .gamipress-peepso-achievement,
+.ps-focus__info .gamipress-peepso-ranks .gamipress-peepso-rank {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ps-focus__info .gamipress-peepso-points-type {
+  margin: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.ps-focus__info .gamipress-peepso-points img.gamipress-points-thumbnail {
+  border-radius: 100%;
+  margin-left: 5px;
+}
+
+body #peepso #item-header-cover-image span.activity {
+  font-size: 14px;
+}
+
+.ps-focus__info .gamipress-peepso-achievements .gamipress-peepso-achievement-type-label {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.ps-focus__info .gamipress-peepso-achievements .gamipress-peepso-achievement-type-label {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.ps-focus__info .gamipress-peepso-achievement-title {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.ps-focus__info .gamipress-peepso-achievements img.gamipress-achievement-thumbnail {
+  border-radius: 100%;
+  margin-left: 5px;
+}
+
+.ps-focus__info .gamipress-peepso-ranks {
+  margin-bottom: 10px;
+  display: flex;
+}
+@media (max-width: 61.24em) {
+  .ps-focus__info .gamipress-peepso-ranks {
+    justify-content: center;
+  }
+}
+
+.ps-focus__info .gamipress-peepso-ranks .gamipress-peepso-rank-label {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.ps-focus__info .gamipress-peepso-ranks .gamipress-peepso-rank a.activity {
+  font-size: 14px;
+}
+
+.ps-focus__info .gamipress-peepso-ranks img.gamipress-rank-thumbnail {
+  border-radius: 100%;
+  margin-left: 5px;
+}
+
+.ps-focus__info .gamipress-peepso-rank-title {
+  margin-left: 10px;
+}
+
+.gamipress-user-points:not(.gamipress-layout-none) .gamipress-points {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  overflow: visible;
+  align-items: flex-start;
+}
+
+@media (max-width: 1200px) {
+  .gamipress-user-points:not(.gamipress-layout-none) .gamipress-points {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 20px;
+  }
+}
+@media (max-width: 61.24em) {
+  .gamipress-user-points:not(.gamipress-layout-none) .gamipress-points {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.gamipress-user-points-image {
+  margin-left: 15px;
+  min-width: 50px;
+}
+
+.gamipress-user-points:not(.gamipress-layout-none) .gamipress-points .gamipress-user-points-description span {
+  display: block;
+  margin-top: 0;
+}
+
+.gamipress-open-close-switch {
+  text-align: right;
+  padding: 5px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#gamipress-achievements-container[class*="gamipress-columns"] > .gamipress-achievement,
+.gamipress-user-points[class*="gamipress-columns"] > .gamipress-points,
+.gamipress-points-types[class*="gamipress-columns"] > .gamipress-points-type,
+.gamipress-ranks-container[class*="gamipress-columns"] .gamipress-rank {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+
+.gamipress-achievements-list .gamipress-achievements-container .gamipress-achievement-description > h4,
+.gamipress-ranks-list .gamipress-ranks-container .gamipress-rank-description > h4 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+table#gamipress-earnings-table thead,
+table#gamipress-earnings-table tbody {
+  background: #fff;
+}
+
+table#gamipress-earnings-table thead tr th,
+table#gamipress-earnings-table tbody tr td {
+  padding: 10px;
+}
+
+input#gamipress-achievements-search-input {
+  height: 44px;
+  vertical-align: middle;
+}
+
+.gamipress-logs-list .gamipress-log {
+  margin: 5px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.gamipress-logs-list .gamipress-log:first-child {
+  border-top: 1px solid #e3e3e3;
+}
+
+#gamipress-achievements-filter select {
+  margin-right: 0;
+}
+
+#gamipress-achievements-search {
+  margin-left: 0;
+}
+
+.gamipress_achievements_widget #gamipress-achievements-search {
+  width: 100%;
+}
+
+.gamipress_achievements_widget #gamipress-achievements-search label {
+  display: block;
+}
+
+.gamipress_achievements_widget input#gamipress-achievements-search-input {
+  height: 42px;
+  display: block;
+  float: right;
+}
+
+.activity-list .activity-item .activity-content .gamipress-rank,
+.activity-list .activity-item .activity-content .gamipress-points-award,
+.activity-list .activity-item .activity-content .gamipress-achievement {
+  margin: 0 15px 15px;
+}
+
+/* PeepSo Monetization: LearnDash */
+.ps-learndash .ps-learndash__course {
+  margin-bottom: 15px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+
+.ps-learndash__course-inside {
+  padding: 15px;
+}
+
+.ps-learndash .ps-learndash__course-image:not(.ps-learndash__course-image--left):not(.ps-learndash__course-image--right) {
+  margin: -15px;
+  margin-bottom: 15px;
+  border-radius: 4px 4px 0 0;
+}
+
+.ps-learndash__course-image.ps-learndash__course-image--left,
+.ps-learndash__course-image.ps-learndash__course-image--right {
+  margin-bottom: 15px;
+}
+
+/* PeepSo Monetization: WooCommerce */
+.page-template-page-peepso-single-layout .rg-woo-breadcrumbs-wrapper {
+  display: none;
+}
+.page-template-page-peepso-single-layout .ps-woocommerce .wbpwi-peepo-woo-wrapper .wb-grid-cell {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.page-template-page-peepso-single-layout .rg-has-border {
+  display: none;
+}
+.page-template-page-peepso-single-layout .woocommerce-checkout .rg-has-border {
+  display: block;
+}
+
+/*# sourceMappingURL=peepso-main.css.map */

@@ -1,0 +1,1178 @@
+# Copyright (C) 2020 Wbcom Designs
+# This file is distributed under the same license as the Reign LearnDash Addon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Reign LearnDash Addon 3.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-21 17:00:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Reign Leandash Addon\n"
+"Language-Team: Reign Leandash Addon\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: buddypress/class-budyypress-learndash-activity.php:23
+msgid "Started a course"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:25
+msgid "Started Course"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:41
+msgid "Completed a lesson"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:43
+msgid "Lesson Complete"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:50
+msgid "Completed a topic"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:52
+msgid "Topic Complete"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:59
+msgid "Completed a course"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:61
+msgid "Course Complete"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:68
+msgid "Lesson comment"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:70
+msgid "Lesson Comment"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:77
+msgid "Course comment"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:79
+msgid "Course Comment"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:86
+msgid "Completed a quiz"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:88
+msgid "Quiz Completed"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:139
+msgid "%1$s added the %2$s %3$s to the %4$s %5$s"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:159
+#: buddypress/class-budyypress-learndash-activity.php:179
+#: buddypress/class-reign-learndash-buddypress-addon.php:1263
+#: buddypress/class-reign-learndash-buddypress-addon.php:1340
+msgid "%1$s completed the %2$s %3$s"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:199
+#: buddypress/class-reign-learndash-buddypress-addon.php:1101
+msgid "%1$s completed the course %2$s"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:219
+#: buddypress/class-reign-learndash-buddypress-addon.php:912
+msgid "%1$s commented on %2$s %3$s"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:239
+#: buddypress/class-reign-learndash-buddypress-addon.php:954
+msgid "%1$s commented on course %2$s"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:262
+#: buddypress/class-reign-learndash-buddypress-addon.php:1420
+msgid "%1$s has passed the %2$s %3$s with score %4$s"
+msgstr ""
+
+#: buddypress/class-budyypress-learndash-activity.php:282
+msgid "%1$s enrolled in course %2$s"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:226
+#: reign-learndash-addon.php:281
+msgid "Proceed"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:227
+#: reign-learndash-addon.php:282
+msgid "Cancel"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:228
+#: general/class-reign-learndash-theme-settings.php:90
+#: reign-learndash-addon.php:283
+msgid "Sync"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:229
+#: general/class-reign-learndash-theme-settings.php:94
+#: learndash/ld30/templates/course_list_template.php:101
+#: learndash/ld30/templates/course_list_template.php:108
+#: reign-learndash-addon.php:284
+msgid "Completed"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:289
+msgid "BuddyPress Group"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:320
+msgid "None"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:333
+msgid "Do you want to associate a BuddyPress group with this course?"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:334
+msgid "This action remove all existing users in this group. Are you sure?"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:341
+msgid "If you want to associate with a new group, then please create a group first."
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:408
+msgid "Learning Activities"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:461
+msgid "Learning Activities Settings"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:462
+msgid "Manage your learning activities settings below."
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:479
+#: buddypress/class-reign-learndash-buddypress-addon.php:486
+msgid "Your profile settings have been saved."
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:498
+#: coming-soon/class-ld-coming-soon-backend-manager.php:120
+#: general/class-reign-learndash-theme-settings.php:190
+#: general/class-reign-learndash-theme-settings.php:227
+#: general/class-reign-learndash-theme-settings.php:392
+msgid "Enable"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:499
+#: general/class-reign-learndash-theme-settings.php:194
+#: general/class-reign-learndash-theme-settings.php:228
+#: general/class-reign-learndash-theme-settings.php:393
+msgid "Disable"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:507
+msgid "Enable \"%s\""
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:522
+msgid "Save Changes"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:531
+#: buddypress/class-reign-learndash-buddypress-addon.php:555
+msgid "LearnDash BuddyPress Activities"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:557
+msgid "Enable BuddyPress Activities"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:559
+msgid "Disable BuddyPress Activities"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:1028
+msgid "%1$s enrolled in %2$s"
+msgstr ""
+
+#: coming-soon/class-ld-coming-soon-backend-manager.php:127
+msgid "Enable custom course features."
+msgstr ""
+
+#: coming-soon/class-ld-coming-soon-backend-manager.php:136
+msgid "Icon"
+msgstr ""
+
+#: coming-soon/class-ld-coming-soon-backend-manager.php:137
+msgid "Feature"
+msgstr ""
+
+#: coming-soon/class-ld-coming-soon-backend-manager.php:184
+msgid "Add Feature"
+msgstr ""
+
+#: coming-soon/class-ld-coming-soon-backend-manager.php:199
+#: general/class-reign-learndash-theme-settings.php:516
+msgid "Default"
+msgstr ""
+
+#: coming-soon/class-ld-coming-soon-backend-manager.php:204
+#: general/class-reign-learndash-theme-settings.php:521
+msgid "Udemy"
+msgstr ""
+
+#: coming-soon/class-ld-coming-soon-backend-manager.php:209
+#: general/class-reign-learndash-theme-settings.php:526
+msgid "Teachable"
+msgstr ""
+
+#: coming-soon/class-ld-coming-soon-backend-manager.php:213
+#: general/class-reign-learndash-theme-settings.php:509
+msgid "Choose single course layout."
+msgstr ""
+
+#: coming-soon/class-ld-coming-soon-backend-manager.php:221
+msgid "Custom Course Features"
+msgstr ""
+
+#: coming-soon/class-ld-coming-soon-backend-manager.php:228
+msgid "Course Layout"
+msgstr ""
+
+#: course-review/class-ld-course-review-manager.php:151
+msgid "Please rate the course."
+msgstr ""
+
+#: course-review/ld-comment-template-functions.php:162
+#: course-review/ld-comment-template-functions.php:191
+#: course-review/review-rating.php:31
+#. translators: 1: rating 2: rating count
+msgid "Rated %1$s out of 5 based on %2$s customer rating"
+msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: course-review/ld-comment-template-functions.php:165
+#: course-review/ld-comment-template-functions.php:194
+#: course-review/review-rating.php:34
+#. translators: %s: rating
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: course-review/review-meta.php:29
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: course-review/review-meta.php:37
+msgid "verified owner"
+msgstr ""
+
+#: course-review/reviews-overview.php:19
+msgid "Average Rating"
+msgstr ""
+
+#: course-review/reviews-overview.php:26
+#: general/reign-learndash-functions.php:622 reign-learndash-addon.php:598
+msgid " rating"
+msgstr ""
+
+#: course-review/reviews-overview.php:28
+#: general/reign-learndash-functions.php:624 reign-learndash-addon.php:600
+msgid " ratings"
+msgstr ""
+
+#: course-review/reviews-overview.php:34
+msgid "Detailed Rating"
+msgstr ""
+
+#: course-review/single-course-reviews.php:38
+#. translators: 1: reviews count 2: course name
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: course-review/single-course-reviews.php:40
+msgid "Reviews"
+msgstr ""
+
+#: course-review/single-course-reviews.php:64
+msgid "There are no reviews yet."
+msgstr ""
+
+#: course-review/single-course-reviews.php:77
+msgid "Add a review"
+msgstr ""
+
+#: course-review/single-course-reviews.php:77
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: course-review/single-course-reviews.php:78
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: course-review/single-course-reviews.php:83
+msgid "Name"
+msgstr ""
+
+#: course-review/single-course-reviews.php:85
+#: general/class-reign-ld-course-tabs-data.php:209
+#: general/class-reign-ld-course-tabs-data.php:300
+#: reign-learndash-addon.php:545
+msgid "Email"
+msgstr ""
+
+#: course-review/single-course-reviews.php:88
+msgid "Submit"
+msgstr ""
+
+#: course-review/single-course-reviews.php:97
+msgid "Your title"
+msgstr ""
+
+#: course-review/single-course-reviews.php:100
+msgid "Your rating"
+msgstr ""
+
+#: course-review/single-course-reviews.php:101
+msgid "Rate&hellip;"
+msgstr ""
+
+#: course-review/single-course-reviews.php:102
+msgid "Perfect"
+msgstr ""
+
+#: course-review/single-course-reviews.php:103
+msgid "Good"
+msgstr ""
+
+#: course-review/single-course-reviews.php:104
+msgid "Average"
+msgstr ""
+
+#: course-review/single-course-reviews.php:105
+msgid "Not that bad"
+msgstr ""
+
+#: course-review/single-course-reviews.php:106
+msgid "Very poor"
+msgstr ""
+
+#: course-review/single-course-reviews.php:112
+msgid "Your review"
+msgstr ""
+
+#: course-review/single-course-reviews.php:121
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: edd-license/EDD_Reign_Learndash_Addon_Plugin_Updater.php:199
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: edd-license/EDD_Reign_Learndash_Addon_Plugin_Updater.php:207
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: edd-license/EDD_Reign_Learndash_Addon_Plugin_Updater.php:393
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: edd-license/EDD_Reign_Learndash_Addon_Plugin_Updater.php:393
+msgid "Error"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:46
+msgid "Reign LearnDash Addon - License"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:55
+msgid "License Key"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:59
+msgid "Enter your license key"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:65
+msgid "License Status"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:69
+msgid "active"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:75
+msgid "Inactive"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:82 edd-license/edd-plugin-license.php:85
+msgid "Deactivate License"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:86
+msgid "Click for deactivate license."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:96
+msgid "Save Settings"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:159
+#: edd-license/edd-plugin-license.php:195
+#: edd-license/edd-plugin-license.php:268
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:168
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:174
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:178
+msgid "Invalid license."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:183
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:187
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:191
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:83
+#: general/class-reign-ld-course-tabs-data.php:102
+#: general/class-reign-ld-theme-ld30-hook.php:213
+#: general/class-reign-ld-theme-ld30-hook.php:233
+#: learndash/single-sfwd-courses.php:66 learndash/single-sfwd-courses.php:90
+msgid "Yes"
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:85
+#: general/class-reign-ld-course-tabs-data.php:97
+#: general/class-reign-ld-theme-ld30-hook.php:215
+#: general/class-reign-ld-theme-ld30-hook.php:228
+#: learndash/single-sfwd-courses.php:68 learndash/single-sfwd-courses.php:85
+msgid "No"
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:134
+#: general/class-reign-ld-theme-ld30-hook.php:262
+#: learndash/ld30/ld-template-parts/course-list-view.php:114
+#: learndash/single-sfwd-courses.php:179
+msgid "Students"
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:140
+#: general/class-reign-ld-theme-ld30-hook.php:268
+#: learndash/single-sfwd-courses.php:185
+msgid "Certificate"
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:146
+#: general/class-reign-ld-theme-ld30-hook.php:274
+#: learndash/single-sfwd-courses.php:191
+msgid "Assignment"
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:218
+#: general/class-reign-ld-course-tabs-data.php:308
+#: reign-learndash-addon.php:554
+msgid "Website"
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:228
+msgid "Google+"
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:237
+#: general/class-reign-ld-course-tabs-data.php:318
+#: reign-learndash-addon.php:564
+msgid "Twitter"
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:246
+#: general/class-reign-ld-course-tabs-data.php:327
+#: reign-learndash-addon.php:573
+msgid "Facebook"
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:262
+#: general/class-reign-ld-course-tabs-data.php:343
+#: general/class-reign-ld-theme-ld30-hook.php:518
+#: general/class-reign-ld-theme-ld30-hook.php:617
+#: learndash/ld30/ld-template-parts/course-list-view.php:53
+#: learndash/ld30/ld-template-parts/course-list-view.php:72
+msgid "Instructor"
+msgstr ""
+
+#: general/class-reign-ld-theme-hook.php:106
+#: general/class-reign-ld-theme-hook.php:258
+#: general/class-reign-ld-theme-hook.php:346
+#: general/class-reign-ld-theme-hook.php:351
+#: general/class-reign-ld-theme-hook.php:362
+#: general/class-reign-ld-theme-hook.php:380
+#: general/class-reign-ld-theme-hook.php:403
+msgid "Courses"
+msgstr ""
+
+#: general/class-reign-ld-theme-hook.php:188
+msgid "Widgets in this area are used in the learndash courses archive page."
+msgstr ""
+
+#: general/class-reign-ld-theme-hook.php:263
+msgid "Course Lessons"
+msgstr ""
+
+#: general/class-reign-ld-theme-hook.php:267
+msgid "Course Topics"
+msgstr ""
+
+#: general/class-reign-ld-theme-ld30-hook.php:101
+#: general/reign-learndash-functions.php:10
+msgid "Description"
+msgstr ""
+
+#: general/class-reign-ld-theme-ld30-hook.php:137
+#: general/reign-learndash-functions.php:27
+msgid "Instructors"
+msgstr ""
+
+#: general/class-reign-ld-theme-ld30-hook.php:151
+#: general/class-reign-ld-theme-ld30-hook.php:554
+#: general/reign-learndash-functions.php:49
+#: learndash/ld30/ld-template-parts/course-list-view.php:90
+msgid "Review"
+msgstr ""
+
+#: general/class-reign-ld-theme-ld30-hook.php:385
+#: general/class-reign-ld-theme-ld30-hook.php:387
+#: learndash/ld30/ld-template-parts/course-curriculum.php:343
+msgid "Expand All"
+msgstr ""
+
+#: general/class-reign-ld-theme-ld30-hook.php:385
+#: learndash/ld30/ld-template-parts/course-curriculum.php:343
+msgid "Collapse All"
+msgstr ""
+
+#: general/class-reign-ld-theme-ld30-hook.php:540
+msgid "Categories"
+msgstr ""
+
+#: general/class-reign-ld-theme-ld30-hook.php:572
+#: learndash/ld30/ld-template-parts/course-list-view.php:108
+msgid "reviews"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:153
+#: general/class-reign-learndash-theme-settings.php:215
+#: general/class-reign-learndash-theme-settings.php:243
+#: general/class-reign-learndash-theme-settings.php:262
+#: general/class-reign-learndash-theme-settings.php:289
+#: general/class-reign-learndash-theme-settings.php:326
+#: general/class-reign-learndash-theme-settings.php:353
+#: general/class-reign-learndash-theme-settings.php:380
+#: general/class-reign-learndash-theme-settings.php:407
+#: general/class-reign-learndash-theme-settings.php:434
+#: general/class-reign-learndash-theme-settings.php:454
+#: general/class-reign-learndash-theme-settings.php:470
+#: general/class-reign-learndash-theme-settings.php:486
+#: general/class-reign-learndash-theme-settings.php:503
+#: general/class-reign-learndash-theme-settings.php:535
+#: general/class-reign-learndash-theme-settings.php:551
+#: general/class-reign-learndash-theme-settings.php:567
+msgid "tooltip-image"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:155
+msgid "Enable BuddyPress Group Integration"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:159
+msgid "This will enable BuddyPress group integration with LearnDash."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:183
+msgid "Enable \"%s\" For Users"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:217
+msgid "Enable Related Courses"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:221
+msgid "You can enable/disable related courses section using these settings."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:245
+msgid "Heading For Related Courses"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:249
+msgid "This setting helps you manage the heading for related courses."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:264
+msgid "Number Of Related Courses Show"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:268
+msgid "This setting helps you manage number of related courses to show."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:291
+#: general/class-reign-learndash-theme-settings.php:295
+msgid "Select Default Course Image"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:310
+msgid "Remove Image"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:311
+msgid "Upload Image"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:328
+msgid "Course Curriculum Layout"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:332
+msgid "You can set the curriculum either expanded or collapsed."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:338
+#: general/class-reign-learndash-theme-settings.php:365
+msgid "Collapsed"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:339
+#: general/class-reign-learndash-theme-settings.php:366
+msgid "Expanded"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:355
+msgid "LD Profile Layout"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:359
+msgid "You can set the LD Profile either expanded or collapsed."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:382
+msgid "Distraction Free Layout"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:386
+msgid "Set \"Distraction Free Layout\" as default view for reading course content."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:409
+msgid "Close Action - Distraction Free Layout"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:413
+msgid ""
+"Decide the action to perform when close button is clicked for \"Distraction "
+"Free Layout\"."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:419
+msgid "Return To Default View"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:420
+msgid "Return To Course Page"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:436
+msgid "Dashboard Title Text"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:440
+msgid ""
+"This will set the title text for linking course page at distraction free "
+"layout."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:456
+msgid "Disable Course Reviews Display"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:460
+msgid ""
+"This will disable course reviews from listings and review tab at single "
+"course page."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:472
+msgid "Allow Guest Users Submit Course Reviews"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:476
+msgid "This will let non enrolled users to submit course reviews."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:488
+msgid "Disable Course Instructor Tab"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:492
+msgid ""
+"Disable course instructor tab from learndash tabs section at single course "
+"page."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:505
+msgid "Single Course Layout"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:537
+msgid "Course Category Filter"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:541
+msgid "Enable course category filter on course archive page."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:553
+msgid "Course Instructor Filter"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:557
+msgid "Enable course instructor filter on course archive page."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:569
+msgid "Hide Course Content Tab"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:573
+msgid ""
+"Enable to hide course content tab on course detail page. And display course "
+"content below description inside course description tab."
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:585
+#: reign-learndash-addon.php:330
+msgid "LearnDash"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:592
+msgid "General"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:593
+msgid "Related Courses"
+msgstr ""
+
+#: general/class-reign-learndash-theme-settings.php:598
+msgid "LearnDash BuddyPress Integration"
+msgstr ""
+
+#: general/class-rtm-ld-buy-course-handler.php:128
+msgid "Buy Membership"
+msgstr ""
+
+#: general/reign-learndash-functions.php:73
+msgid "1 star"
+msgstr ""
+
+#: general/reign-learndash-functions.php:77
+msgid "2 stars"
+msgstr ""
+
+#: general/reign-learndash-functions.php:81
+msgid "3 stars"
+msgstr ""
+
+#: general/reign-learndash-functions.php:85
+msgid "4 stars"
+msgstr ""
+
+#: general/reign-learndash-functions.php:89
+msgid "5 stars"
+msgstr ""
+
+#: general/reign-learndash-functions.php:143
+#: general/reign-learndash-functions.php:148
+#: general/reign-learndash-functions.php:185
+#: general/reign-learndash-functions.php:192
+#: learndash/ld30/templates/course_list_template.php:64
+#: learndash/ld30/templates/course_list_template.php:89
+msgid "Free"
+msgstr ""
+
+#: general/reign-learndash-functions.php:173
+msgid "Open"
+msgstr ""
+
+#: general/reign-learndash-functions.php:283
+#. translators: placeholder Category label
+msgid "All Categories"
+msgstr ""
+
+#: general/reign-learndash-functions.php:307
+#. translators: placeholder Category label
+msgid "All Instructors"
+msgstr ""
+
+#: general/reign-learndash-functions.php:630
+msgid "students"
+msgstr ""
+
+#: general/reign-learndash-functions.php:630
+msgid "student"
+msgstr ""
+
+#: general/reign-learndash-functions.php:672
+msgid "Last updated %s"
+msgstr ""
+
+#: general/vertical-tabs-skeleton.php:28
+msgid "Update Settings"
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-categories.php:33
+msgid "Reign - LD %s categories."
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-categories.php:46
+msgid "%s categories"
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-categories.php:114
+#: ld-widgets/class-reign-ld-widget-course-listing.php:96
+#: ld-widgets/class-reign-ld-widget-course-search.php:69
+msgid "Title:"
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-categories.php:117
+msgid "Show post counts"
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-categories.php:119
+msgid "Show hierarchy"
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-listing.php:97
+msgid "Number of courses to show:"
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-search.php:26
+msgid "A search form for learndash courses for your site."
+msgstr ""
+
+#: learndash/ld30/archive-sfwd-courses.php:31
+#: learndash/ld30/taxonomy-ld_course_category.php:43
+msgid "<i class=\"fa fa-angle-double-left\"></i>"
+msgstr ""
+
+#: learndash/ld30/archive-sfwd-courses.php:32
+#: learndash/ld30/taxonomy-ld_course_category.php:44
+msgid "<i class=\"fa fa-angle-double-right\"></i>"
+msgstr ""
+
+#: learndash/ld30/archive-sfwd-courses.php:33
+#: learndash/ld30/taxonomy-ld_course_category.php:45
+msgid "Page"
+msgstr ""
+
+#: learndash/ld30/ld-template-parts/course-curriculum.php:358
+#: learndash/ld30/ld-template-parts/course-curriculum.php:464
+msgid "Status"
+msgstr ""
+
+#: learndash/ld30/ld-template-parts/course-curriculum.php:485
+msgid ""
+"Course content is private, only for logged in users. Please login to check "
+"course content."
+msgstr ""
+
+#: learndash/ld30/ld-template-parts/course-list-view.php:45
+#: learndash/ld30/ld-template-parts/course-list-view.php:167
+#: learndash/ld30/templates/course_list_template.php:194
+#: learndash/ld30/templates/course_list_template.php:204
+msgid "Read More"
+msgstr ""
+
+#: learndash/ld30/ld-template-parts/course-list-view.php:132
+msgid "Comment"
+msgstr ""
+
+#: learndash/ld30/templates/course.php:66
+msgid "You've earned a certificate!"
+msgstr ""
+
+#: learndash/ld30/templates/course.php:70
+msgid "Download Certificate"
+msgstr ""
+
+#: learndash/ld30/templates/course_list_template.php:35
+msgid "See more..."
+msgstr ""
+
+#: learndash/ld30/templates/course_list_template.php:98
+#: learndash/ld30/templates/course_list_template.php:105
+msgid "Enrolled"
+msgstr ""
+
+#: learndash/ld30/templates/learndash_course_lesson_not_available.php:23
+msgid ""
+"<span class=\"ld-display-label\">Available on:</span> <span "
+"class=\"ld-display-date\">%s</span>"
+msgstr ""
+
+#: learndash/ld30/templates/learndash_lesson_assignment_upload_form.php:56
+msgid "Upload Assignment"
+msgstr ""
+
+#: learndash/ld30/templates/learndash_lesson_assignment_upload_form.php:68
+msgid "Upload"
+msgstr ""
+
+#: learndash/ld30/templates/learndash_lesson_assignment_uploads_list.php:24
+msgid "Files you have uploaded"
+msgstr ""
+
+#: learndash/ld30/templates/learndash_lesson_assignment_uploads_list.php:32
+msgid "Delete this uploaded Assignment"
+msgstr ""
+
+#: learndash/ld30/templates/learndash_lesson_assignment_uploads_list.php:32
+msgid "X"
+msgstr ""
+
+#: learndash/ld30/templates/learndash_lesson_assignment_uploads_list.php:51
+msgid "Comments"
+msgstr ""
+
+#: learndash/single-sfwd-courses.php:15
+msgid "Previous"
+msgstr ""
+
+#: learndash/single-sfwd-courses.php:16
+msgid "Next"
+msgstr ""
+
+#: learndash/single-sfwd-courses.php:128
+msgid "enrolled"
+msgstr ""
+
+#: learndash/single-sfwd-courses.php:151
+msgid "Continue"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Reign LearnDash Addon"
+msgstr ""
+
+#: reign-learndash-addon.php:333
+msgid "%1$s is ineffective as it requires %2$s to be installed and active."
+msgstr ""
+
+#: reign-learndash-addon.php:362
+msgid "Reign"
+msgstr ""
+
+#: reign-learndash-addon.php:365
+msgid ""
+"%1$s is not activated please activate the theme. %2$s is work with %1$s "
+"theme."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wbcomdesigns.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Reign LearnDash Addon provides seemless integration of LearnDash with Reign "
+"theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wbcom Designs"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:387
+msgctxt "Enrolled Courses Label"
+msgid "Enrolled %s"
+msgstr ""
+
+#: related-courses/class-ld-related-courses-handler.php:51
+msgctxt "Enrolled Courses Label"
+msgid "Related %s"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:425
+#: general/class-reign-learndash-theme-settings.php:109
+msgctxt "Course Enrollment Activity Label"
+msgid "%s Enrollment Activity"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:426
+#: general/class-reign-learndash-theme-settings.php:110
+msgctxt "Course Completion Activity Label"
+msgid "%s Completion Activity"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:428
+#: general/class-reign-learndash-theme-settings.php:112
+msgctxt "Lesson Completion Activity Label"
+msgid "%s Completion Activity"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:429
+#: general/class-reign-learndash-theme-settings.php:113
+msgctxt "Topic Completion Activity Label"
+msgid "%s Completion Activity"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:430
+#: general/class-reign-learndash-theme-settings.php:114
+msgctxt "Quiz Passed Activity Label"
+msgid "%s Passed Activity"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:431
+#: general/class-reign-learndash-theme-settings.php:115
+msgctxt "Comment Single Course Activity Label"
+msgid "Comment Single %s Activity"
+msgstr ""
+
+#: buddypress/class-reign-learndash-buddypress-addon.php:432
+#: general/class-reign-learndash-theme-settings.php:116
+msgctxt "Comment Single Lesson Activity Label"
+msgid "Comment Single %s Activity"
+msgstr ""
+
+#: general/class-reign-ld-course-tabs-data.php:110
+#: learndash/single-sfwd-courses.php:154
+msgctxt "Course Features  Label"
+msgid "%s Features"
+msgstr ""
+
+#: general/class-reign-ld-theme-hook.php:186
+msgctxt "Course Archive Sidebar Label"
+msgid "%s Archive Sidebar"
+msgstr ""
+
+#: general/class-reign-ld-theme-hook.php:195
+#: general/class-reign-ld-theme-hook.php:204
+#: general/class-reign-ld-theme-hook.php:213
+msgctxt "Single %s Sidebar Label"
+msgid "Single %s Sidebar"
+msgstr ""
+
+#: general/class-reign-ld-theme-hook.php:197
+#: general/class-reign-ld-theme-hook.php:206
+#: general/class-reign-ld-theme-hook.php:215
+msgctxt "Single %s Sidebar Description Label"
+msgid "Widgets in this area are used in the learndash single %s page."
+msgstr ""
+
+#: general/class-reign-ld-theme-ld30-hook.php:119
+#: general/class-reign-ld-theme-ld30-hook.php:359
+#: general/reign-learndash-functions.php:5
+#: learndash/ld30/ld-template-parts/course-curriculum.php:77
+#. translators: Course Content Label.
+msgctxt "Course Content Label"
+msgid "%s Content"
+msgstr ""
+
+#: general/class-reign-ld-theme-ld30-hook.php:237
+msgctxt "Course Features Label"
+msgid "%s Features"
+msgstr ""
+
+#: general/reign-learndash-functions.php:339
+#: general/reign-learndash-functions.php:356
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: general/reign-learndash-functions.php:340
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: general/reign-learndash-functions.php:343
+#: general/reign-learndash-functions.php:359
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-categories.php:30
+msgctxt "LD course categories label"
+msgid "A list of learndash %s categories."
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-listing.php:26
+msgctxt "LD list courses label"
+msgid "A list of learndash %s."
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-listing.php:29
+msgctxt "LD list course listing label"
+msgid "Reign - LD %s Listing"
+msgstr ""
+
+#: ld-widgets/class-reign-ld-widget-course-search.php:29
+msgctxt "Search widget"
+msgid "Reign- LD Course Search"
+msgstr ""
+
+#: learndash/ld30/ld-template-parts/course-curriculum.php:90
+#. translators: Course Materials Label.
+msgctxt "Course Materials Label"
+msgid "%s Materials"
+msgstr ""
+
+#: learndash/ld30/templates/learndash_course_lesson_not_available.php:30
+msgctxt "Return to Course Overview Label"
+msgid "Return to %s Overview"
+msgstr ""
+
+#: learndash/ld30/templates/learndash_lesson_assignment_upload_form.php:28
+msgctxt "placeholder: PHP file upload size"
+msgid "Maximum upload file size: %s"
+msgstr ""
+
+#: learndash/ld30/templates/learndash_lesson_assignment_upload_form.php:33
+msgctxt "placeholder: comma list of file extentions"
+msgid "Allowed file types: %s"
+msgstr ""

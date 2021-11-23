@@ -1,0 +1,145 @@
+.jq-ry-container{position:relative;padding:0 5px;line-height:0;display:block;cursor:pointer;box-sizing:content-box;direction:rtl}.jq-ry-container[readonly=readonly]{cursor:default}.jq-ry-container>.jq-ry-group-wrapper{position:relative;width:100%}.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group{position:relative;line-height:0;z-index:10;white-space:nowrap}.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group>svg{display:inline-block}.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group.jq-ry-normal-group{width:100%}.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group.jq-ry-rated-group{width:0;z-index:11;position:absolute;top:0;right:0;overflow:hidden}
+
+/* average-rating */
+.average-rating {
+    width: 100%;
+}
+
+.rating-box-wrapper {
+    float: right;
+    width: 50%;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.learndash .commentlist {
+    clear: both;
+}
+
+.rating-box {
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid #eee;
+}
+
+.wb-ld-average-value {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    margin: 27px 0 11px;
+}
+
+.rating-box .jq-ry-container {
+    margin: auto;
+}
+
+.detailed-rating {
+    width: auto;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.detailed-rating .rating-box {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.detailed-rating .rating-box .stars {
+    clear: both;
+    padding: 0 30px 3px;
+}
+
+.detailed-rating .rating-box .key {
+    font-weight: 700;
+    min-width: 60px;
+    text-align: right;
+}
+
+.detailed-rating .stars>div {
+    display: inline-table;
+    line-height: 30px;
+}
+
+.detailed-rating .stars>div.bar {
+    width: 200px;
+    margin: 0 7px;
+}
+
+.detailed-rating .stars>div.bar .full_bar {
+    background: #dcdcdc;
+    height: 12px;
+    position: relative;
+}
+
+.detailed-rating .stars>div.bar .full_bar > div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffb606;
+}
+
+@media screen and (max-width: 768px) {
+    .rating-box-wrapper {
+        float: none;
+        width: 100%; 
+        margin-left: 0;
+    }
+    
+    .detailed-rating {
+        display: block;
+    }
+}
+
+/* course-commentlist */
+
+ul.wb-ld-course-commentlist {
+    list-style: none;
+}
+
+ul.wb-ld-course-commentlist li {
+    border-top: 1px solid #eee;
+    padding: 50px 0;
+    overflow: hidden;
+    list-style: none;
+    display: block;
+}
+
+ul.wb-ld-course-commentlist .wb-ld-comment-author {
+    width: 70px;
+    overflow: hidden;
+    float: right;
+    margin-left: 30px;
+}
+
+ul.wb-ld-course-commentlist .wb-ld-comment-author img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+ul.wb-ld-course-commentlist .comment-text {
+    margin-right: 100px;
+}
+
+ul.wb-ld-course-commentlist p.meta {
+    margin: 0 0 15px;
+}
+
+ul.wb-ld-course-commentlist .jq-ry-container {
+    padding: 0;
+}
+
+ul.wb-ld-course-commentlist .review-title {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 9px 0 15px;
+}
+
+ul.wb-ld-course-commentlist  .description {
+    margin: 10px 0;
+}
+/*# sourceMappingURL=jquery.rateyo.min.css.map */

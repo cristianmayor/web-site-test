@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+.elementor-member-carousel .swiper-slide {
+    text-align: center;
+}
+
+.elementor-member-carousel .item-title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.elementor-member-carousel .last-activity {
+    margin-bottom: 30px;
+    display: block;
+    font-size: 13px;
+}
+
+.elementor-member-carousel .member-avatar img {
+    margin: auto;
+    border-radius: 100%;
+}

@@ -1,0 +1,7 @@
+<wpml-config>
+    <admin-texts>
+        <key name="bpchk_general_settings">
+            <key name="tab_name" />           
+        </key>		
+    </admin-texts>
+</wpml-config>

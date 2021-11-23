@@ -1,0 +1,1334 @@
+/* reign-cover-image-top */
+.bp-nouveau {
+
+    /* wbtm-social-media-links */
+    #buddypress div#item-header .wbtm-social-media-links ul {
+        list-style: none;
+        margin: 0;
+    }
+
+    #buddypress div#item-header .wbtm-social-media-links ul li {
+        float: none;
+    }
+
+    .wbtm-cover-header-type-1 div#item-header-content .wbtm-social-media-links li a,
+    .wbtm-cover-header-type-2 div#item-header-content .wbtm-social-media-links li a,
+    .wbtm-cover-header-type-3 div#item-header-content .wbtm-social-media-links li a,
+    &.media #buddypress div#item-header div#item-header-content .wbtm-social-media-links li a {
+        color: $color_white;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        background: rgba(255,255,255,0.2);
+        text-align: center;
+        line-height: 30px;
+        vertical-align: middle;
+        font-size: $font__size-extrasmall;
+        border-radius: 100%;
+
+        img {
+            margin-top: -3px;
+            border-radius: 100%;
+        }
+
+        &:hover {
+            background: #ededed;
+            border: 0;
+            color: $color_gray;
+            outline: none;
+        }
+    }
+
+    .wbtm-cover-header-type-2 div#item-header-content .wbtm-social-media-links li a,
+    &.media #buddypress div#item-header .wbtm-cover-header-type-2 div#item-header-content .wbtm-social-media-links li a {
+        background: rgba(2555,255,255,0.2);
+        border-radius: 3px;
+
+        img {
+            border-radius: 3px;
+        }
+    }
+
+    .wbtm-cover-header-type-3 div#item-header-content .wbtm-social-media-links li a,
+    &.media #buddypress div#item-header .wbtm-cover-header-type-3 div#item-header-content .wbtm-social-media-links li a {
+        background: rgba(0,0,0,0.5);
+        border-radius: 100%;
+    }
+
+    &.media #buddypress div#item-header div#item-header-content .wbtm-social-media-links {
+        @media screen and (max-width: 782px) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &.media #buddypress div#item-header div#item-header-content .wbtm-social-media-links ul li {
+        display: inline-block;
+        margin: 0;
+        margin-right: 6px;
+
+        a {
+            padding: 0;
+            border: 0;
+
+            &:hover {
+                background: #ededed;
+                border: 0;
+                color: $color_gray;
+                outline: none;
+            }
+        }
+    }
+
+    /* wbtm-cover-header-type-1 */
+    .wbtm-show-item-buttons {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+        color: $color_white;
+        background: rgba(0, 0, 0, 0.5);
+        vertical-align: middle;
+        border: 1px solid #5a5a5a;
+        display:none;
+
+        .fa {
+            font-size: $font__size-medium;
+        }
+    }
+
+    #buddypress .wbtm-cover-header-type-1 #header-cover-image {
+        //height: 300px;
+        height: 100%;
+    }
+
+    #buddypress #cover-image-container.wbtm-cover-header-type-1 {
+        min-height: initial;
+    }
+
+    #buddypress #cover-image-container.wbtm-cover-header-type-1:after {
+        display: none;
+    }
+
+    #buddypress #item-header-cover-image #item-header-avatar {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        max-width: initial;
+        max-height: initial;
+    }
+
+    #buddypress #item-header-cover-image #item-header-avatar img.avatar {
+        margin: 0;
+        min-width: 132px;
+        max-width: 132px;
+        background: transparent;
+        border: 6px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 2px 5px 0 rgba(18, 43, 70, 0.15), 0 0 0 1px #e0e0e0;
+    }
+
+    #buddypress div#item-header #item-header-cover-image #item-header-content {
+        clear: both;
+        float: none;
+        margin-left: 0;
+        margin-top: 0;
+        color: $color_white;
+    }
+
+    #buddypress div#item-header-cover-image .user-nicename a,
+    #buddypress div#item-header-cover-image .user-nicename,
+    &.media.media #buddypress #item-header-cover-image .user-nicename {
+        font-size: $font__size_24;
+        margin: 0 0 .6em;
+    }
+
+    .wbtm-cover-header-type-1 div#item-header-content li {
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons {
+        display: block !important;
+        width: 150px;
+        background: $color_white;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        border-radius: 3px;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+        z-index: 100;
+        margin: 0;
+        padding: 0;
+
+        &:after {
+            content: ' ';
+            width: 12px;
+            height: 12px;
+            background: $color_white;
+            position: absolute;
+            top: -6px;
+            right: 10px;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            z-index: -1;
+        }
+
+        div.generic-button,
+        li.generic-button {
+            width: 100%;
+            margin: 0;
+            padding: 5px;
+            padding-top: 0;
+            float: none;
+
+            &:first-child {
+                padding-top: 5px;
+            }
+
+            a,
+            button {
+                display: block;
+                //background: transparent;
+                font-size: $font__size-smallest;
+                //color: #777;
+                width: 100%;
+                padding: 6px 8px;
+                border-radius: 0;
+                text-align: center;
+                border: none;
+
+                &:hover {
+                    //background: #f5f6f7;
+                    //color: #444;
+                    border: none;
+                    outline: none;
+                    border-radius: 0;
+                    box-shadow: none;
+                }
+            }
+        }
+
+        ul {
+            margin: 0;
+
+            li {
+                margin: 0;
+            }
+        }
+    }
+
+    #buddypress div#item-header #item-header-cover-image #item-header-content #item-buttons:after {
+        right: 24px;
+    }
+
+    .member-review-stats {
+        font-size: $font__size-smaller;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-1 .wbtm-item-buttons-wrapper {
+        position: absolute;
+        right: 15px;
+        bottom: 10px;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-1 div#item-header-cover-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 300px;
+        min-height: 300px;
+        padding: 16px;
+
+        &:before {
+            content: ' ';
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 25%, rgba(0,0,0,0.45) 100%);
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-1 .wbtm-member-info-section {
+        display: flex;
+        align-items: center;
+        /*flex-flow: row wrap;*/
+        max-width: 60%;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-1 #item-header-cover-image #item-header-content {
+        color: $color_white;
+        padding-top: 20px;
+        padding-bottom: 40px;
+
+        .item-meta {
+            color: $color_white;
+        }
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-1 #item-header-cover-image #item-header-content .wbtm-item-buttons-wrapper{
+
+
+        #item-buttons{
+            top:0px;
+            background:none !important;
+            box-shadow:none;
+            width:auto;
+            position: relative;
+
+            &:after{
+                display:none;
+            }
+
+            ul{
+                display:flex;
+                flex-wrap: wrap;
+                align-items: start;
+                width:auto;
+                position: relative;
+
+                li.generic-button{
+                    width:auto;
+
+                    a, button, a:hover, button:hover{
+                        border-radius:4px;
+                        background: rgba(0, 0, 0, 0.50) !important;
+                    }
+                }
+
+
+                li:first-child{
+                    padding-top:0px !important;
+                }
+
+                div.generic-button,
+                div.generic-button:first-child{
+                    width:auto;
+                    padding-top: 0px;
+
+                    a, a:hover{
+                        border-radius:4px;
+                        background: rgba(0, 0, 0, 0.50) !important;
+                    }
+                    button{
+                        width:auto;
+                    }
+                }
+
+            }
+        }
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 #item-header-cover-image #item-header-content .wbtm-item-buttons-wrapper{
+
+        #item-buttons{
+            top:0px;
+            background:none !important;
+            box-shadow:none;
+            width:auto;
+            position: relative;
+
+            &:after{
+                display:none;
+            }
+
+            ul{
+                display:flex;
+                flex-wrap: wrap;
+                align-items: start;
+                justify-content: flex-end;
+                width:auto;
+                position: relative;
+
+                @media all and (max-width: 992px) and (min-width: 782px) {
+                    max-width: 320px;
+                    justify-content: flex-end;
+                }
+
+                li.generic-button{
+                    width:auto;
+
+                    a, button, a:hover, button:hover{
+                        border-radius:4px;
+                        background: rgba(0, 0, 0, 0.50) !important;
+                    }
+                }
+
+
+                li:first-child{
+                    padding-top:0px !important;
+                }
+
+                div.generic-button,
+                div.generic-button:first-child{
+                    width:auto;
+                    padding-top: 0px;
+
+                    a, a:hover{
+                        border-radius:4px;
+                        background: rgba(0, 0, 0, 0.50) !important;
+                    }
+                    button{
+                        width:auto;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 #item-header-cover-image #item-header-content .wbtm-item-buttons-wrapper{
+        top: inherit;
+        bottom: 25px;
+        max-width: 45%;
+
+        @media screen and (max-width: 782px) {
+            max-width: 100%;
+        }
+
+        #item-buttons{
+            top:0px;
+            background:none !important;
+            box-shadow:none;
+            width:auto;
+            position: relative;
+
+            &:after{
+                display:none;
+            }
+
+            ul{
+                display:flex;
+                flex-wrap: wrap;
+                align-items: start;
+                justify-content: flex-end;
+                width:auto;
+                position: relative;
+
+                li.generic-button{
+                    width:auto;
+
+                    a, button, a:hover, button:hover{
+                        border-radius:4px;
+
+                        @media screen and (max-width: 782px) {
+                            background: #1d76da;
+                        }
+
+                    }
+                }
+
+
+                li:first-child{
+                    padding-top:0px !important;
+                }
+
+                div.generic-button,
+                div.generic-button:first-child{
+                    width:auto;
+                    padding-top: 0px;
+
+                    a, a:hover{
+                        border-radius:4px;
+                        @media screen and (max-width: 782px) {
+                            background: #1d76da;
+                        }
+                    }
+                    button{
+                        width:auto;
+                        @media screen and (max-width: 782px) {
+                            background: #1d76da;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+
+
+    #buddypress div#item-header .wbtm-cover-header-type-1 .wbtm-cover-extra-info-section {
+        color: $color_white;
+        text-align: center;
+
+        @media (min-width: 782px) {
+            margin-left: auto;
+        }
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-1 .reign-xprofile-data {
+        margin: 8px 0;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-1 .wbtm-cover-extra-info-section > div {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    span.rtm-usermeta-count {
+        display: block;
+        text-align: center;
+        font-size: $font__size_24;
+        font-weight: 600;
+    }
+
+    span.rtm-usermeta-text {
+        text-transform: uppercase;
+        font-size: $font__size-smallest;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-1 #item-header-cover-image #item-header-content div#latest-update a {
+        color: $color_white;
+
+        &:hover {
+            color: #399dff;
+        }
+    }
+
+    @media (max-width: 960px) {
+        #buddypress .wbtm-cover-header-type-1 #header-cover-image {
+            height: 100%;
+        }
+    }
+
+    @media (max-width: 782px) {
+        #buddypress #item-header-cover-image {
+            padding: 20px;
+        }
+
+        #buddypress .wbtm-cover-header-type-1 #header-cover-image {
+            height: 100%;
+        }
+
+        #buddypress div#item-header .wbtm-cover-header-type-1 div#item-header-cover-image {
+            flex-direction: column;
+            height: 100%;
+        }
+
+        #buddypress div#item-header .wbtm-cover-header-type-1 .wbtm-member-info-section {
+            justify-content: center;
+            max-width: 100%;
+            flex-wrap: wrap;
+        }
+
+        #buddypress .wbtm-cover-header-type-1 #item-header-cover-image #item-header-avatar {
+            margin-right: 0;
+        }
+
+        #buddypress div#item-header #cover-image-container.wbtm-member-cover-image-container .wbtm-item-buttons-wrapper{
+            position: relative;
+            right: inherit;
+            top: inherit;
+            bottom: inherit;
+            margin-bottom: 10px;
+        }
+
+        #buddypress div#item-header #cover-image-container.wbtm-member-cover-image-container .wbtm-show-item-buttons,
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons:after{
+            display:none;
+        }
+
+        #buddypress div#item-header #cover-image-container.wbtm-member-cover-image-container #item-buttons{
+            display:block !important;
+        }
+
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content .wbtm-item-buttons-wrapper #item-buttons{
+            position: relative;
+            width: 100%;
+            top: 0;
+            background: none;
+            box-shadow: none;
+            border-radius: 0;
+        }
+
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons ul.action{
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-justify-content: center;
+            justify-content: center;
+            flex-wrap:wrap;
+            -webkit-box-align: start;
+            -moz-box-align: start;
+            -ms-flex-align: start;
+            -webkit-align-items: start;
+            align-items: start;
+        }
+
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons div.generic-button:first-child, #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons li.generic-button:first-child{
+            padding-top:0px;
+        }
+
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons div.generic-button,
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons li.generic-button{
+            width:auto;
+        }
+
+        .single-headers #item-header-content{
+            padding-left:0px;
+        }
+
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons li.generic-button a,
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons div.generic-button a{
+            padding:6px 10px;
+        }
+
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons .action li.generic-button a,
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons .action div.generic-button a,
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons .action li.generic-button button,{
+            border-radius:4px !important;
+            background:rgba(0, 0, 0, 0.50);
+        }
+        #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons .action div.generic-button a:hover,
+            #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons .action li.generic-button a:hover,
+            #buddypress div#item-header.single-headers #item-header-cover-image #item-header-content #item-buttons .action li.generic-button button:hover{
+
+        }
+
+        #buddypress div#item-header .wbtm-cover-header-type-3 #item-header-cover-image #item-header-content .wbtm-item-buttons-wrapper{
+            bottom:0px;
+        }
+
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-1 .wbtm-social-media-links,
+    #buddypress div#item-header .wbtm-cover-header-type-2 .wbtm-social-media-links {
+        margin-bottom: 10px;
+
+        &:empty {
+            display: none !important;
+        }
+
+        @media (max-width: 767px) {
+            margin-top: 10px;
+        }
+    }
+
+    /* wbtm-cover-header-type-2 */
+    #buddypress .wbtm-cover-header-type-2 #header-cover-image {
+        height: 100%;
+    }
+
+    #buddypress #cover-image-container.wbtm-cover-header-type-2 {
+        min-height: initial;
+    }
+
+    #buddypress #cover-image-container.wbtm-cover-header-type-2:after {
+        display: none;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 #item-header-cover-image #item-header-content {
+        clear: both;
+        float: none;
+        margin-left: 0;
+        margin-top: 0;
+        color: $color_white;
+
+        .item-meta {
+            color: $color_white;
+        }
+    }
+
+    #buddypress .wbtm-cover-header-type-2 div#item-header-cover-image .user-nicename a,
+    #buddypress .wbtm-cover-header-type-2 div#item-header-cover-image .user-nicename {
+        font-size: $font__size_24;
+    }
+
+    .wbtm-cover-header-type-2 div#item-header-content li {
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    .member-review-stats {
+        font-size: $font__size-smaller;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 .wbtm-item-buttons-wrapper {
+        position: absolute;
+        right: 5px;
+        bottom: 10px;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 div#item-header-cover-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 300px;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 .wbtm-member-info-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        text-align: center;
+        min-width: 350px;
+        max-width: 350px;
+        padding: 55px 0 15px 0;
+    }
+
+    #buddypress .wbtm-cover-header-type-2 #item-header-cover-image #item-header-avatar {
+        margin-right: 0;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 #item-header-cover-image #item-header-content {
+        color: $color_white;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 .wbtm-cover-extra-info-section {
+        color: $color_white;
+        text-align: center;
+
+        @media (min-width: 782px) {
+            margin-left: auto;
+            margin-bottom: 50px;
+        }
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 .reign-xprofile-data {
+        margin: 8px 0;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 .wbtm-cover-extra-info-section > div {
+        //display: inline-flex;
+        //flex-direction: column;
+        //justify-content: center;
+        display: inline-block;
+        margin: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 90px;
+        min-width: 90px;
+        min-height: 90px;
+        max-height: 90px;
+        border-radius: 5px;
+    }
+
+    span.rtm-usermeta-count {
+        display: block;
+        text-align: center;
+        font-size: $font__size_24;
+        font-weight: 600;
+    }
+
+    span.rtm-usermeta-text {
+        text-transform: uppercase;
+        font-size: $font__size-smallest;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 #item-header-cover-image #item-header-content div#latest-update a {
+        color: $color_white;
+
+        &:hover {
+            color: #399dff;
+        }
+    }
+
+    @media (max-width: 960px) {
+        #buddypress .wbtm-cover-header-type-2 #header-cover-image {
+            height: 100%;
+        }
+    }
+
+    @media (max-width: 782px) {
+        #buddypress #item-header-cover-image {
+            padding: 20px;
+        }
+
+        #buddypress .wbtm-cover-header-type-2 #header-cover-image {
+            height: 100%;
+        }
+
+        #buddypress div#item-header .wbtm-cover-header-type-2 div#item-header-cover-image {
+            flex-direction: column;
+        }
+
+        #buddypress div#item-header .wbtm-cover-header-type-2 .wbtm-member-info-section {
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 400px) {
+        #buddypress div#item-header .wbtm-cover-header-type-2 .wbtm-member-info-section {
+            min-width: 100%;
+        }
+    }
+
+    /* wbtm-cover-header-type-3 */
+    #buddypress .wbtm-cover-header-type-3 #header-cover-image {
+        height: 300px;
+    }
+
+    #buddypress #cover-image-container.wbtm-cover-header-type-3 {
+        min-height: initial;
+        background: $color_white;
+
+        .rating-text,
+        .rating-total {
+            color: #888;
+        }
+    }
+
+    #buddypress #cover-image-container.wbtm-cover-header-type-3:after {
+        display: none;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 #item-header-cover-image #item-header-content {
+        clear: both;
+        float: none;
+        margin-left: 0;
+        margin-top: 0;
+        color: #888;
+    }
+
+    #buddypress .wbtm-cover-header-type-3 div#item-header-cover-image .user-nicename a,
+    #buddypress .wbtm-cover-header-type-3 div#item-header-cover-image .user-nicename {
+        font-size: $font__size_24;
+        color: #888;
+        text-shadow: none;
+        margin: 0 0 .6em;
+        //margin-top: 60px;
+    }
+
+    #buddypress .wbtm-group-cover-image-container.wbtm-cover-header-type-3 div#item-header-cover-image .user-nicename a,
+    #buddypress .wbtm-group-cover-image-container.wbtm-cover-header-type-3 div#item-header-cover-image .user-nicename {
+        margin-top: 10px;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 .reign-xprofile-data {
+        color: #888;
+    }
+
+    .wbtm-cover-header-type-3 div#item-header-content li {
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    .member-review-stats {
+        font-size: $font__size-smaller;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-item-buttons-wrapper {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 div#item-header-cover-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        min-height: 300px;
+        padding: 16px;
+        padding-top: 230px;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-member-info-section {
+        display: flex;
+        align-items: flex-start;
+        /*flex-flow: row wrap;*/
+        max-width: 50%;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 #item-header-cover-image #item-header-content {
+        color: #888;
+        padding-top: 80px;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-social-media-links {
+        margin-top: -60px;
+        margin-bottom: 30px;
+
+        &:empty {
+            display: none !important;
+        }
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-social-media-links:empty + .user-nicename {
+        margin-top: 0;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-cover-extra-info-section {
+        color: #888;
+        text-align: center;
+        margin-top: 90px;
+        padding-bottom: 90px;
+
+        @media (min-width: 782px) {
+            margin-left: auto;
+        }
+
+        @media (max-width: 782px) {
+            padding-bottom: 0px;
+        }
+
+        @media only screen and (min-width: 781px) and (max-width: 1100px)  {
+            padding-bottom: 90px;
+        }
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 .reign-xprofile-data {
+        margin: 8px 0;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-cover-extra-info-section > div {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    span.rtm-usermeta-count {
+        display: block;
+        text-align: center;
+        font-size: $font__size_24;
+        font-weight: 600;
+    }
+
+    span.rtm-usermeta-text {
+        text-transform: uppercase;
+        font-size: $font__size-smallest;
+    }
+
+    #buddypress div#item-header .wbtm-cover-header-type-3 #item-header-cover-image #item-header-content div#latest-update a {
+        color: #888;
+
+        &:hover {
+            color: #399dff;
+        }
+    }
+
+    @media (max-width: 782px) {
+        #buddypress #item-header-cover-image {
+            padding: 20px;
+        }
+
+        #buddypress div#item-header .wbtm-cover-header-type-3 div#item-header-cover-image {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-member-info-section {
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width:100%;
+        }
+
+        .wbtm-cover-header-type-3 div#item-header-content .wbtm-social-media-links li a {
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        #buddypress div#item-header .wbtm-cover-header-type-3 #item-header-cover-image #item-header-content {
+            padding-top: 0;
+        }
+
+        #buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-social-media-links {
+            margin: 10px 0 10px;
+        }
+
+        #buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-cover-extra-info-section {
+            margin-top: 10px;
+        }
+
+        #buddypress .wbtm-cover-header-type-3 #item-header-cover-image #item-header-avatar {
+            margin-right: 0;
+        }
+
+        #buddypress .wbtm-cover-header-type-3 div#item-header-cover-image .user-nicename a,
+        #buddypress .wbtm-cover-header-type-3 div#item-header-cover-image .user-nicename {
+            margin-top: 0;
+        }
+    }
+}
+
+body.bp-nouveau:not(.logged-in) #buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-cover-extra-info-section {
+    padding-bottom: 0;
+}
+
+.reign-cover-image-inside.bp-nouveau{
+
+    #buddypress div#item-header .wbtm-cover-header-type-2 .wbtm-item-buttons-wrapper{
+        @media screen and (min-width: 992px) {
+            max-width: 300px;
+        }
+
+    }
+
+
+}
+
+
+
+/* wbtm-badge */
+#buddypress div#item-header {
+    .wbtm-badge {
+        margin: 5px 0;
+
+        ul span {
+            display: block;
+            color: $color_white;
+        }
+
+        ul.profile-achievements-listing {
+            margin: 0;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                float: none;
+                margin-right: 0;
+                position: relative;
+
+                &:hover .widget-badgeos-item-title {
+                    opacity: 1;
+                }
+
+                .badgeos-item-thumb img {
+                    width: 40px;
+                    max-width: 40px;
+                    height: 40px;
+                }
+            }
+
+            li#widget-achievements-listing-item-more {
+                margin-left: 8px;
+            }
+
+            .widget-badgeos-item-title {
+                position: absolute;
+                bottom: -20px;
+                right: 0px;
+                left: 0;
+                margin: auto;
+                color: $color_white;
+                font-size: $font__size-smaller;
+                white-space: nowrap;
+                opacity: 0;
+            }
+        }
+    }
+}
+
+/* mycred-users-badges */
+.users-header #mycred-users-badges {
+    height: 35px;
+}
+
+#mycred-users-badges .the-badge {
+    display: inline-block;
+}
+
+.users-header #mycred-users-badges .mycred-badge-image {
+    width: 30px;
+    height: 30px;
+}
+
+#mycred-users-badges .mycred-badge-image {
+    display: inline-block;
+    margin: 5px 5px 0 0;
+}
+
+.buddypress-wrap .profile.public .mycred h4 {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 5px;
+}
+
+table.mycred-table thead,
+table.mycred-table tbody,
+table.mycred-table tfoot {
+    background: #fff;
+}
+
+table.mycred-table thead tr th,
+table.mycred-table tbody tr td,
+table.mycred-table tfoot tr th {
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+}
+
+#mycred-users-badges {
+    margin-bottom: 5px;
+
+    .the-badge {
+        display: inline-block;
+    }
+
+    .mycred-badge-image {
+        display: inline-block;
+        margin: 5px 5px 0 0;
+    }
+}
+
+.mycred-table {
+    th:first-child,
+        td:first-child {
+        padding-left: 13px;
+    }
+}
+
+#buddypress div#item-header .wbtm-cover-header-type-3 .wbtm-badge {
+    ul span,
+    ul.profile-achievements-listing .widget-badgeos-item-title {
+        color: $color_black;
+    }
+}
+
+/* GamiPress Support */
+.users-header .gamipress-buddypress-points,
+.users-header .gamipress-buddypress-achievements .gamipress-buddypress-achievement,
+.users-header .gamipress-buddypress-ranks .gamipress-buddypress-rank {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 10px 0 0;
+}
+
+.users-header .wbtm-cover-header-type-2 {
+    .gamipress-buddypress-points,
+    .gamipress-buddypress-achievements .gamipress-buddypress-achievement,
+    .gamipress-buddypress-ranks .gamipress-buddypress-rank {
+        justify-content: center;
+    }
+
+    .gamipress-buddypress-achievement-title {
+        color: $color_white;
+    }
+}
+
+.users-header .wbtm-cover-header-type-1 {
+    .gamipress-buddypress-achievement-title {
+        color: $color_white;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .users-header .gamipress-buddypress-points,
+    .users-header .gamipress-buddypress-achievements .gamipress-buddypress-achievement,
+    .users-header .gamipress-buddypress-ranks .gamipress-buddypress-rank {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.users-header .center-view .gamipress-buddypress-points,
+.users-header .center-view .gamipress-buddypress-achievements .gamipress-buddypress-achievement,
+.users-header .center-view .gamipress-buddypress-ranks .gamipress-buddypress-rank {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.users-header .gamipress-buddypress-achievements .gamipress-buddypress-achievement,
+.users-header .gamipress-buddypress-ranks .gamipress-buddypress-rank {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.users-header .gamipress-buddypress-points-type {
+    margin: 0 10px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.users-header .gamipress-buddypress-points img.gamipress-points-thumbnail {
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+body #buddypress #item-header-cover-image span.activity {
+    font-size: 14px;
+}
+
+.gamipress-buddypress-points .activity,
+.gamipress-buddypress-achievements .activity,
+.gamipress-buddypress-ranks .activity {
+    margin-bottom: 10px;
+}
+
+.users-header .gamipress-buddypress-achievements .gamipress-buddypress-achievement-type-label {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.users-header .gamipress-buddypress-achievements .gamipress-buddypress-achievement-type-label {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.users-header .gamipress-buddypress-achievement-title {
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.users-header .gamipress-buddypress-achievements img.gamipress-achievement-thumbnail {
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.users-header .gamipress-buddypress-ranks {
+    margin-bottom: 10px;
+}
+
+.users-header .gamipress-buddypress-ranks .gamipress-buddypress-rank-label {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.users-header .gamipress-buddypress-ranks .gamipress-buddypress-rank a.activity {
+    font-size: 14px;
+}
+
+.users-header .gamipress-buddypress-ranks img.gamipress-rank-thumbnail {
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.users-header .gamipress-buddypress-rank-title {
+    margin-right: 10px;
+}
+
+.gamipress-user-points:not(.gamipress-layout-none) .gamipress-points {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;;
+    max-width: 33.333333%;;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    overflow: visible;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+@media (max-width: 1200px) {
+    .gamipress-user-points:not(.gamipress-layout-none) .gamipress-points {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .gamipress-user-points:not(.gamipress-layout-none) .gamipress-points {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.gamipress-user-points-image {
+    margin-right: 15px;
+    min-width: 50px;
+}
+
+.gamipress-user-points:not(.gamipress-layout-none) .gamipress-points .gamipress-user-points-description span {
+    display: block;
+    margin-top: 0;
+}
+
+.gamipress-open-close-switch {
+    text-align: left;
+    padding: 5px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#gamipress-achievements-container[class*="gamipress-columns"]>.gamipress-achievement,
+.gamipress-user-points[class*="gamipress-columns"]>.gamipress-points,
+.gamipress-points-types[class*="gamipress-columns"]>.gamipress-points-type,
+.gamipress-ranks-container[class*="gamipress-columns"] .gamipress-rank {
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+
+.gamipress-achievements-list .gamipress-achievements-container .gamipress-achievement-description > h4,
+.gamipress-ranks-list .gamipress-ranks-container .gamipress-rank-description > h4 {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+table#gamipress-earnings-table thead,
+table#gamipress-earnings-table tbody {
+    background: #fff;
+}
+
+table#gamipress-earnings-table thead tr th,
+table#gamipress-earnings-table tbody tr td {
+    padding: 10px;
+}
+
+input#gamipress-achievements-search-input {
+    height: 44px;
+    vertical-align: middle;
+}
+
+.gamipress-logs-list .gamipress-log {
+    margin: 5px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.gamipress-logs-list .gamipress-log:first-child {
+    border-top: 1px solid #e3e3e3;
+}
+
+#gamipress-achievements-filter select {
+    margin-left: 0;
+}
+
+#gamipress-achievements-search {
+    margin-right: 0;
+}
+
+.gamipress_achievements_widget #gamipress-achievements-search {
+    width: 100%;
+}
+
+.gamipress_achievements_widget #gamipress-achievements-search label {
+    display: block;
+}
+
+.gamipress_achievements_widget input#gamipress-achievements-search-input {
+    height: 42px;
+    display: block;
+    float: left;
+}
+
+.activity-list .activity-item .activity-content .gamipress-rank,
+.activity-list .activity-item .activity-content .gamipress-points-award,
+.activity-list .activity-item .activity-content .gamipress-achievement {
+    margin: 0 15px 15px;
+}

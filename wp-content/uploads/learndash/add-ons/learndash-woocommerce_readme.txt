@@ -6,9 +6,9 @@ LD Requires at least: 3.0
 Slug: learndash-woocommerce
 Tags: integration, woocommerce,
 Requires at least: 5.0
-Tested up to: 5.6
+Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 1.9.1
+Stable tag: 1.9.3.3
 
 Integrate LearnDash LMS with WooCommerce.
 
@@ -40,6 +40,31 @@ Alternatively, you always have the option to update manually. Please note, a ful
 1. Activate the add-on plugin via the PLUGINS menu.
 
 == Changelog ==
+
+= 1.9.3.3 =
+
+* Fixed checking logic to prevent errors
+
+= 1.9.3.2 =
+
+* Fixed Uncaught Error: Call to a member function get_type() on bool
+
+= 1.9.3.1 =
+
+* Fixed courses being added to users with the incorrect payment status. Courses are now only added on processing or complete rather than on hold or pending
+
+= 1.9.3 = 
+
+* Added new added order item to existing order will trigger course enrollment
+* Fixed retroactive tool and some variables are not compatible with WC 5.6
+* Fixed retroactive tool doesn't honor the expired subscription course removal setting
+* Fixed renewal subscription payment reset access date for expired courses
+
+= 1.9.2 = 
+
+* Updated use global variable instead of debug backtrace to enable subscription products filter  
+* Fixed conflict with WooCommerce product bundle extension, better code logic                                                                                      
+* Fixed typo in get_type method name
 
 = 1.9.1 = 
 

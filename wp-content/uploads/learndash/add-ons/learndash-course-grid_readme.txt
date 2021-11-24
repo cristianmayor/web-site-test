@@ -6,9 +6,9 @@ LD Requires at least: 3.0
 Slug: learndash-course-grid
 Tags: grid, view, display
 Requires at least: 5.0
-Tested up to: 5.6
+Tested up to: 5.8.2
 Requires PHP: 7.0
-Stable tag: 1.7.0
+Stable tag: 2.0.2
 
 Transform the course list created with shortcode [ld_course_list] to grid view.
 
@@ -39,6 +39,24 @@ Alternatively, you always have the option to update manually. Please note, a ful
 1. Activate the add-on plugin via the PLUGINS menu.
 
 == Changelog ==
+
+= 2.0.2 =
+
+* Fixed asset loading for legacy course grids
+
+= 2.0.1 =
+
+* Added course enrollment status attributes and block option
+* Udated removed fixed 4:3 aspect ratio to prevent distorted images
+* Fixed course grid assets not loading when Elementor is being used
+
+= 2.0.0 =
+
+* Added course grid Gutenberg block
+* Added learndash_course_grid shortcode
+* Added learndash_course_grid_filter shortcode
+* Added ability to add and use custom template
+* Added support for CG 1.0 shortcode
 
 = 1.7.0 =
 

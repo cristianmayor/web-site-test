@@ -2,13 +2,13 @@
 Author: LearnDash
 Author URI: https://learndash.com 
 Plugin URI: https://learndash.com/add-on/memberpress/
-LD Requires at least: 2.5
+LD Requires at least: 3.0
 Slug: learndash-memberpress
 Tags: integration, membership, memberpress,
 Requires at least: 5.0
-Tested up to: 5.5
+Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 2.2.0
+Stable tag: 2.2.1.2
 
 Integrate LearnDash LMS with MemberPress.
 
@@ -40,6 +40,21 @@ Alternatively, you always have the option to update manually. Please note, a ful
 1. Activate the add-on plugin via the PLUGINS menu.
 
 == Changelog ==
+
+= 2.2.1.2 =
+
+* Fixed free trial subscriptions not enrolling users
+
+= 2.2.1.1 =
+
+* Updated set default retroactive process to 5 per batch
+* Fixed trial subscriptions not being enrolled in courses/groups
+
+= 2.2.1 =
+
+* Updated make retroactive notice dismissible
+* Fixed PHP 8 compatibility
+* Fixed undefined index error
 
 = 2.2.0 =
 

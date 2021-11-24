@@ -3,8 +3,8 @@ Contributors: wbcomdesigns, vapvarun
 Donate link: https://wbcomdesigns.com/donate/
 Tags: buddypress, members
 Requires at least: 4.0
-Tested up to: 5.8.1
-Stable tag: 2.6.0
+Tested up to: 5.8.2
+Stable tag: 2.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -91,6 +91,8 @@ Yes you can use the review form on other page, just go to "Dashboard->Review->BP
 4. Plugin Settings
 
 == Changelog ==
+= 2.6.1 =
+* Fix: Fixed member header add review button redirects to 404 page
 
 = 2.6.0 =
 * Fix: (#170) added common space between rating stars

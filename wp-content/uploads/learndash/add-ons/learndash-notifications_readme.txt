@@ -6,9 +6,9 @@ LD Requires at least: 3.0
 Slug: learndash-notifications
 Tags: notifications, emails
 Requires at least: 5.0
-Tested up to: 5.6
+Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 1.5.2
+Stable tag: 1.5.3
 
 Send email notifications based on LearnDash actions.
 
@@ -42,6 +42,13 @@ Alternatively, you always have the option to update manually. Please note, a ful
 1. Activate the add-on plugin via the PLUGINS menu.
 
 == Changelog ==
+
+= 1.5.3 =
+
+* Added a filter to switch the notification content to RTL learndash_notifications_email_rtl
+* Updated the trigger "user hasn't logged in for X days" to group the emails into one rather than sending out mass separate emails
+* Fixed Notification for drip lesson doesn't update the send time if enrollment date gets changed
+* Fixed PHP warnings/notices
 
 = 1.5.2 =
 

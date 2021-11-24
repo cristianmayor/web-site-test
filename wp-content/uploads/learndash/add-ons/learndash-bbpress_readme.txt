@@ -2,13 +2,13 @@
 Author: LearnDash
 Author URI: https://learndash.com 
 Plugin URI: https://learndash.com/add-on/bbpress/
-LD Requires at least: 2.5.0
+LD Requires at least: 3.0.0
 Slug: learndash-bbpress
 Tags: bbpress, forums, integrations
-Requires at least: 4.9
-Tested up to: 5.2
+Requires at least: 5.0
+Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 2.1.1
+Stable tag: 2.2.1
 
 Integrate LearnDash LMS with bbPress.
 
@@ -41,7 +41,26 @@ Alternatively, you always have the option to update manually. Please note, a ful
 
 == Changelog ==
 
+= 2.2.1 =
+
+* Added group support ld bbpress shortcodes and widgets
+* Added ld_bbpress_forum_courses shortcode tag
+* Added add get forum courses function and change some styles
+* Added class shortcode file and register ld_bbpress_course_forums shortcode tag
+* Added get course forums html function and refactor course forums widget
+* Updated refactor get forum courses widget
+* Fixed undefined index error in saving post meta function
+* Fixed bug that allow user access forums if forum view setting is set to any and one of course / group selectors is empty
+
+= 2.2.0 =
+
+* Added dependency check
+* Added LearnDash group support
+* Updated post limit message for group
+* Fixed undefined error notices
+
 = 2.1.1 =
+
 * Added course forum widget
 * Updated name and moved `functions.php` and `forum-widget.php`
 * Updated load translation function

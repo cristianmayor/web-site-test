@@ -2,13 +2,13 @@
 Author: LearnDash
 Author URI: https://learndash.com
 Plugin URI: https://learndash.com/add-on/easy-digital-downloads/ 
-LD Requires at least: 2.5
+LD Requires at least: 3.0
 Slug: learndash-edd
 Tags: integration, membership, edd,
-Requires at least: 4.9
-Tested up to: 5.2
+Requires at least: 5.0
+Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 1.2.0
+Stable tag: 1.3.0
 
 Integrates LearnDash LMS with Easy Digital Downloads.
 
@@ -40,7 +40,16 @@ Alternatively, you always have the option to update manually. Please note, a ful
 
 == Changelog ==
 
+= 1.3.0 =
+
+* Added LearnDash group support 
+* Updated user course access is attched to each product rather than the overall order allowing refunds of individual products whilst retaining access to others
+* Updated updating product’s related courses will update existing customers course access
+* Fixed PHP warnings 
+* Fixed broken metabox styling
+
 = 1.2.0 =
+
 * Added a check on expired transaction status when removing course access
 * Fixed users not being unenrolled on payment status change
 * Fixed course unenrollment issue

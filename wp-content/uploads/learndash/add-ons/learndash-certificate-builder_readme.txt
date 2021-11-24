@@ -6,9 +6,9 @@ LD Requires at least: 3.0
 Slug: learndash-certificate-builder
 Tags: certificates, course certificates, quiz certificates
 Requires at least: 5.0
-Tested up to: 5.7
+Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 1.0.3
 
 Create certificates using the Gutenberg block editor.
 
@@ -38,6 +38,23 @@ Alternatively, you always have the option to update manually. Please note, a ful
 1. Activate the add-on plugin via the PLUGINS menu.
 
 == Changelog ==
+
+= 1.0.3 =
+
+* Added support for WordPress 5.8
+* Fixed font conflict with the Gutenberg plugin
+
+= 1.0.2 = 
+
+* Fixed error background image is missing when a relative protocol was used or the site address did match the forced protocol set (http/https)
+* Fixed prevent cert builder type column duplication
+
+= 1.0.1 =
+
+* Added support for the Leardash Quizinfo block
+* Fixed error when trying to use a custom font
+* Fixed columns background color doesn't display in certificate PDF
+* Fixed PHP warning about LD_CERTIFICATE_BUILDER_CONTAINER_WIDTH
 
 = 1.0.0 = 
 

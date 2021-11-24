@@ -6,9 +6,9 @@ LD Requires at least: 3.0
 Slug: learndash-gravity-forms
 Tags: integration, gravity forms
 Requires at least: 5.0
-Tested up to: 5.2
+Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 2.1.1
+Stable tag: 2.1.2
 
 Integrates LearnDash LMS with Gravity Forms.
 
@@ -43,7 +43,16 @@ Alternatively, you always have the option to update manually. Please note, a ful
 
 == Changelog ==
 
+= 2.1.2 =
+
+* Added ability to assign a LearnDash group
+* Added allow conditional group enrollment based upon a form input
+* Added ability to support Gravity Forms conditonal logic 
+* Fixed PHP notice
+* Fixed users not being enrolled when a Stripe payment field is part of the form
+
 = 2.1.1 =
+
 * Added payment refunded hooked function for paid form
 * Added payment completed hooked function for paid form
 * Added logic to bail course enrollment in user registration hook if the submitted form is a paid form

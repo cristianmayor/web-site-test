@@ -5,10 +5,10 @@ Plugin URI: https://learndash.com
 Slug: learndash-core
 Tags: learndash
 Requires at least: 5.5
-Tested up to: 5.7
+Tested up to: 5.8.2
 Requires PHP: 7.0
-Stable tag: 3.4.0.2
-Last Update: 2021-03-30
+Stable tag: 3.6.0
+Last Update: 2021-11-17
 
 LearnDash LMS Plugin - Turn your WordPress site into a learning management system.
 
@@ -30,6 +30,139 @@ If the auto-update is not working, you always have the option to update manually
 4. Activate the LearnDash LMS plugin via the PLUGINS menu.
 
 == Changelog ==
+
+= 3.6.0 =
+
+* Added trial period and billing period options to subscriptions
+* Added registration page and logic
+* Added per course redirects post purchase for buy now and recurring access type courses
+* Added advanced tab that new houses data upgrades, custom labels and the REST API
+* Added payments tab that houses PayPal and Stripe payment gateways 
+* Added customizable post purchase and registration emails
+* Added from email settings to change sender name and address rather than using the default of WordPress
+* Fixed REST API using 12 hours instead of 24 hours in some places
+* Fixed quiz filter not showing on some associated quizzes
+* Fixed leaderboard showing results as 0
+
+= 3.5.1.3 =
+
+* Fixed issue with section headings being removed after the previous update resulting in display issues
+
+= 3.5.1.2 =
+
+* Fixed conflict with ACF Pro in quizzes
+* Fixed free choice questions with an apostrophe being marked as incorrect
+* Fixed user not being able to progress to the next step if total quiz points are 0
+* Fixed saving or adding quote marks in section headings resulting in removal of all headings from that course
+* Fixed data upgrades getting stuck in specific use cases
+* Fixed topic being marked as complete even when the associated quiz is failed
+* Fixed minor logic issues with quiz saving and resume 
+
+= 3.5.1.1 =
+
+* Added LD version and unique key to quiz attemp user meta data
+* Fixed matrix sorting validation not working since version 3.5.1
+* Fixed fill in the blank type questions only awarding 1 point even when the points to be awarded is set to a higher value
+* Fixed logged out users cannot access a quiz in a course that is set to the open access mode
+* Fixed mark complete button not showing on sample lessons for logged-in users 
+* Fixed being unable to remove the first section heading 
+* Fixed not being able to progress through a course when the last question in a quiz is an essay
+* Fixed an error with "browser cookie answer protection" setting
+
+= 3.5.1 =
+
+* Added new quiz saving and resume functionality
+* Added new endpoint to REST API V2 for quiz form entries
+* Added fill in the blank question type individual answer points
+* Added filter to not force lower case compare on quiz answer
+* Updated increase rows for free question answer type
+* Updated quiz questions settings fields in REST API V2
+* Updated binary selector post_status display logic
+* Updated validated that the user inputted recurring billing cycle value is correct
+* Fixed if free quiz answer is 0 the answer is not being stored correctly in the statistics table
+* Fixed focus mode arrows getting reversed on tablets
+* Fixed leaderboard on front-end not displaying maximum points
+* Fixed quiz builder sometimes loading with an unexpected error in the console
+* Fixed lessons ordering changes after saving
+* Fixed individual point values being incorrect in the REST API
+* Fixed custom quiz time format options not saving
+* Fixed calendar icons not displaying the date on hover in focus mode
+* Fixed incorrect variable name in the REST API V2
+* Fixed some quiz settings not displaying in the WordPress admin when importing quizzes
+* Fixed PHP deprecated notice $block_editor_context
+* Fixed issue where update notice trigger triggers on the wrong plugin
+* Fixed quiz custom field dates not translated in the certificate builder
+* Fixed page scrolling to top on quiz start
+* Fixed support tab showing upgrade notice 
+* Fixed Assessment questions not grading correctly 
+* Fixed warnings/notices 
+* Fixed umlauts not working in section headings 
+* Fixed quiz score delete 
+* Fixed error when accessing a deleted step of a course 
+* Fixed quiz Assessment question radio input can select multiple
+
+= 3.4.2.1 =
+
+* Fixed ld_course_list not linking to courses when groups aren't set to public 
+
+= 3.4.2 = 
+
+* Added display alert when group CPT is not public
+* Added [user_groups] shortcode section to shortcode inserter
+* Added compatibility for WordPress 5.8
+* Fixed PHP warning illegal string "offset" warning 
+* Fixed private lessons not displaying in the lesson selector
+* Fixed quiz statistics not loading when user search for a course a LD30 profile
+* Fixed focus mode sub-steps list being collapsed by default on active step
+* Fixed PHP notice in CSV reports
+* Fixed question display setting not displaying questions in pagination format when selected
+
+= 3.4.1.1 = 
+
+* Fixed learndash_process_mark_complete() function
+
+= 3.4.0.8 = 
+
+* Fixed quizzes not showing in the course builder
+* Fixed Fixed activity table records not getting updated when manually marking content as completed
+
+= 3.4.0.7 =
+
+* Fixed recurring payment duration resetting to 1 day
+* Fixed quizzes not showing on course builder 
+* Fixed sprint() too few arguments warnings 
+* Fixed warning illegal offset percentage 
+
+= 3.4.0.6 = 
+
+* Fixed Course Grid pagination resetting after going to the next page on a filtered grid 
+* Fixed issue with course progression where some users were unable to progress to the next step when taking a quiz multiple times 
+* Fixed learndash_get_global_quiz_list() causing infinite loop in Legacy Mode templates 
+
+= 3.4.0.5 = 
+
+* Fixed lesson progress bar showing in focus mode 
+* Fixed issue where course grid was still showing in progress even when it should show completed
+* Fixed lesson/topic content not showing if the course builder is disabled 
+* Fixed Error Call to undefined function learndash_get_custom_lower_label()
+
+= 3.4.0.4 = 
+
+* Updated use php timestamp for quiz completion times rather than a JS based value
+* Fixed modifying course progress from the backend user profile in the wp-admin resets all incomplete courses
+* Fixed sprintf warning too few arguments
+
+= 3.4.0.3 = 
+
+* Added show progress bar in lesson overview page
+* Added support for duplicate post plugins
+* Updated import block dependencies instead of using the wp global
+* Updated compatibility for Spotlightr API v2 videos for video player
+* Fixed warning messages under overview section (class-simplepie.php)
+* Fixed [ld_course_list] using legacy templates causes infinite looping 
+* Fixed group access mode reverting to previous saved value when updating 
+* Fixed PHP notice on transaction listing 
+* Fixed expired course alert not showing 
 
 = 3.4.0.2 =
 

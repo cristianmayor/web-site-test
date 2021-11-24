@@ -6,9 +6,9 @@ LD Requires at least: 3.0
 Slug: learndash-zapier
 Tags: integration, zapier,
 Requires at least: 5.0
-Tested up to: 5.5
+Tested up to: 5.8
 Requires PHP: 7
-Stable tag: 2.2.0
+Stable tag: 2.2.3
 
 Integrate LearnDash LMS with Zapier.
 
@@ -39,6 +39,29 @@ Alternatively, you always have the option to update manually. Please note, a ful
 1. Activate the add-on plugin via the PLUGINS menu.
 
 == Changelog ==
+
+= 2.2.3 = 
+
+* Fixed can't call Zapier URL preventing some triggers from working
+
+= 2.2.2 =
+
+* Fixed can't send trigger due to incorrect hookUrl payload key name when adding subscription hook
+* Fixed non static method can't be called statically
+
+= 2.2.1 =
+
+* Added course enrollment via group
+* Added "added to group" trigger
+* Added "group completed" trigger
+* Added course certificate link data in course completed trigger
+* Added ability to set username and display name
+* Updated get quiz result sample from the least recent user
+* Updated improve course payload
+* Updated make action payload filterable
+* Fixed group certificate link sample
+* Fixed error response
+* Fixed WP 5.8 compatibility error
 
 = 2.2.0 =
 

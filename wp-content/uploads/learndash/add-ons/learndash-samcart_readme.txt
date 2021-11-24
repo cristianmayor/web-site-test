@@ -2,13 +2,13 @@
 Author: LearnDash
 Author URI: https://learndash.com 
 Plugin URI: https://www.learndash.com/add-on/samcart/
-LD Requires at least: 2.5
+LD Requires at least: 3.0
 Slug: learndash-samcart
 Tags: integration, samcart,
-Requires at least: 4.9
-Tested up to: 5.3.2
+Requires at least: 5.0
+Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 1.0
+Stable tag: 1.1.0
 
 Integrates LearnDash LMS with Samcart.
 
@@ -41,7 +41,14 @@ Alternatively, you always have the option to update manually. Please note, a ful
 
 == Changelog ==
 
+= 1.1.0 =
+
+* Added filter hook to control process_notification_url
+* Added dependency check
+* Fixed undefined index error
+
 = 1.0 =
+
 * Initial Release
 
 View the full changelog [here](https://www.learndash.com/add-on/samcart/).

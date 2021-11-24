@@ -6,9 +6,9 @@ LD Requires at least: 2.5.0
 Slug: learndash-2checkout
 Tags: payment gateway, 2checkout
 Requires at least: 4.9
-Tested up to: 5.1
+Tested up to: 5.7
 Requires PHP: 7.0
-Stable tag: 1.1.0
+Stable tag: 1.1.1.1
 
 Integrate 2checkout payment gateway with LearnDash.
 
@@ -39,7 +39,19 @@ Alternatively, you always have the option to update manually. Please note, a ful
 
 == Changelog ==
 
+= 1.1.1.1 =
+
+* Updated security review changes
+
+= 1.1.1 =
+
+* Added LearnDash group purchasing support
+* Updated 2Checkout INS secret link and buy settings for compatibility
+* Updated to latest 2Checkout Sandbox mode support
+* Fixed transactions not validating 
+
 = 1.1.0 =
+
 * Added language directory and POT file
 * Updated setting field text and description
 * Updated disable attribute to readonly for 2checkout approved URL field
